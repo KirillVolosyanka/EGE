@@ -41,6 +41,7 @@
 # Number 6
 '''
     Code is here
+    I let you don't make this, becouse we did it)))
 '''
 # Answer: _ _ _ _
 
