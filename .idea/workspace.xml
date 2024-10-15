@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task2_HW_1_Table">
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task2_HW_1_Table(Correct)">
+      <change afterPath="$PROJECT_DIR$/Task15/ Coordinate_Plane/Practice_Theory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task15/ Coordinate_Plane/Task15_Coordinate_HW_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/Task2_HW/Task2_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Task2_HW/Task2_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/PracticeMain/num!.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/PracticeMain/num!.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +49,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Practice_Theory.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.task2_1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Кирилл\PycharmProjects\General\Task15\ Coordinate_Plane" />
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
@@ -150,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728407115922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task2_HW_1_Table(Correct)">
+      <option name="closed" value="true" />
+      <created>1728408463037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728408463037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +180,8 @@
     <MESSAGE value="Start" />
     <MESSAGE value="First_commit" />
     <MESSAGE value="Task2_HW_1_Table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task2_HW_1_Table" />
+    <MESSAGE value="Task2_HW_1_Table(Correct)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2_HW_1_Table(Correct)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
