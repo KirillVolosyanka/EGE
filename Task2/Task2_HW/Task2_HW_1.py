@@ -1,15 +1,34 @@
 # Number 1
-'''
-    Code is here
-'''
+
+# print("x y z w")
+# for x in 0,1:
+#     for y in 0,1:
+#         for z in 0,1:
+#             for w in 0,1:
+#                 f = ((not(x) or y) or (not(z) or w)) and (not(z == y) or (w == x))
+#                 f =
+#                 # f = (y or (not(x))) or (w or (not (z))) and ((w == x) or (not (z == y)))
+#                 if f == 0:
+#                     print(x, y, z, w)
+
 # Answer: _ _ _ _
 
 '''_________________________________________________________________________'''
 
 # Number 2
-'''
-    Code is here
-'''
+
+print("x y z w")
+
+for x in 0,1:
+    for y in 0,1:
+        for z in 0,1:
+            for w in 0,1:
+
+                f1 = (not(w or not(y)) or (z == x))
+                f2 = (w or not(y)) == (not(x) or z)
+                if (f1 == 0) and (f2 == 0):
+
+                    print(x, y, z, w)
 # Answer: _ _ _ _
 
 '''_________________________________________________________________________'''
