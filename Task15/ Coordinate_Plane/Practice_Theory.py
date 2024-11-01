@@ -56,27 +56,3 @@
 #                 break
 #         if ok:
 #             print(up - down)
-
-def Here(x, down, up):
-    return ((down <= x) and (x <= up))
-def func(x, y, up, down):
-    return (((not(Here(x, down, up)) or (x**2 <= 81)) and ((not(y**2 <= 36) or Here(y, down, up)))))
-
-for down in range (-500, 500):
-    if down % 100 == 0:
-        print("Down = ", down)
-    for up in range (down + 1, 501):
-        ok = True
-        for x in range (-100, 100):
-            # print(x, "_____________________________")
-            for y in range(-100, 100):
-                # print("Y = ", y)
-                f = func(x,y,up,down)
-                if f == False:
-                    ok = False
-                    break
-        if ok:
-            print(up - down)
-
-
-
