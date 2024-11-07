@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task2_HW_1_Table(Correct)">
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Lesson3_Division">
       <change beforePath="$PROJECT_DIR$/.idea/General.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/General.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/Task2_HW/Task2_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Task2_HW/Task2_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task15/Division/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/Division/Practice_Theory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="General" />
       <option name="ENV_FILES" value="" />
@@ -164,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728408463037</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson3_Division">
+      <option name="closed" value="true" />
+      <created>1730991100067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730991100067</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +190,8 @@
     <MESSAGE value="First_commit" />
     <MESSAGE value="Task2_HW_1_Table" />
     <MESSAGE value="Task2_HW_1_Table(Correct)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task2_HW_1_Table(Correct)" />
+    <MESSAGE value="Lesson3_Division" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson3_Division" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
