@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="last lesson on 6th nov">
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task2_HW_1_Table(Correct)">
       <change beforePath="$PROJECT_DIR$/.idea/General.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/General.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task15/ Coordinate_Plane/Task15_Coordinate_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/ Coordinate_Plane/Task15_Coordinate_HW_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/Task2_HW/Task2_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Task2_HW/Task2_HW_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +52,24 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Кирилл\PycharmProjects\General\Task15\ Coordinate_Plane" />
+      <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="General" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -80,30 +89,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="num!" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="General" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Василий Макаров\PycharmProjects\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.9 (PycharmProjects)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task2/PracticeMain" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task2/PracticeMain/num!.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="task2_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="General" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -114,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task2/task2_1.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain\task2_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,19 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728399282823</updated>
     </task>
-    <task id="LOCAL-00003" summary="test commit4567890">
-      <created>1728399651135</created>
+    <task id="LOCAL-00003" summary="Task2_HW_1_Table">
+      <option name="closed" value="true" />
+      <created>1728407115922</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1728399651135</updated>
+      <updated>1728407115922</updated>
     </task>
-    <task id="LOCAL-00004" summary="last lesson on 6th nov">
-      <created>1730892013262</created>
+    <task id="LOCAL-00004" summary="Task2_HW_1_Table(Correct)">
+      <option name="closed" value="true" />
+      <created>1728408463037</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1730892013262</updated>
+      <updated>1728408463037</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
@@ -191,9 +181,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
     <MESSAGE value="First_commit" />
-    <MESSAGE value="test commit4567890" />
-    <MESSAGE value="last lesson on 6th nov" />
-    <option name="LAST_COMMIT_MESSAGE" value="last lesson on 6th nov" />
+    <MESSAGE value="Task2_HW_1_Table" />
+    <MESSAGE value="Task2_HW_1_Table(Correct)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2_HW_1_Table(Correct)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
