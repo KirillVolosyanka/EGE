@@ -25,7 +25,7 @@ for x in 0,1:
             if f == 0:
                 print (x,y,z)
 '''
-# Answer: xzy
+# Answer: xzy Right
 
 '''_________________________________________________________________________'''
 
@@ -37,12 +37,13 @@ for x in 0,1:
     for y in 0,1:
         for z in 0,1:
             for w in 0,1:
+                # Right version ((not(w) or not(x)) == (not(z) or y)) and (y or w)
                 f = (not(w) or not(x) == (not(z) or y)) and (y or w)
                 if f == 1 and y == 0:
                     print(x, y, z, w)
 '''
 
-# Answer: wxyz
+# Answer: wxyz NOT Right
 
 '''_________________________________________________________________________'''
 
@@ -78,7 +79,7 @@ for x in 0,1:
 '''
 
 
-# Answer: zyxw
+# Answer: zyxw Right
 
 '''_________________________________________________________________________'''
 
@@ -103,7 +104,7 @@ for x in 0,1:
                         print(x, y, z, w)
 '''
 
-# Answer: wzyx
+# Answer: wzyx Right
 
 '''_________________________________________________________________________'''
 
@@ -119,7 +120,7 @@ for x in 0,1:
                 if f == 1:
                     print(x,y,z,w)
 '''
-# Answer: wyzx
+# Answer: wyzx Right
 
 '''_________________________________________________________________________'''
 
@@ -134,7 +135,7 @@ for x in 0,1:
             if f == 0:
                 print(x,y,z)
 '''
-# Answer: xzy
+# Answer: xzy Right
 
 '''_________________________________________________________________________'''
 
@@ -149,7 +150,7 @@ for x in 0,1:
                 if f == 1 and y == 1 and z == 1:
                     print(x,y,z,w)
 '''
-# Answer: wyxz
+# Answer: wyxz Right
 
 '''_________________________________________________________________________'''
 
@@ -164,7 +165,7 @@ for x in 0,1:
                 if f == 0:
                     print(x,y,z,w)
 '''
-# Answer: zwyx
+# Answer: zwyx Right
 
 '''_________________________________________________________________________'''
 
@@ -179,7 +180,7 @@ for x in 0,1:
                 if f == 0 and z == 0 and w ==1:
                     print(x,y,z,w)
 '''
-# Answer: xzwy
+# Answer: xzwy Right
 
 '''_________________________________________________________________________'''
 
@@ -194,7 +195,7 @@ for x in 0,1:
                 if f == 0 and w ==1:
                     print(x,y,z,w)
 '''
-# Answer: yzwx
+# Answer: yzwx Right
 
 '''_________________________________________________________________________'''
 
@@ -210,20 +211,20 @@ for x in 0,1:
                 if f1 == 1 and f2==0 and z ==1:
                     print(x,y,z,w)
 '''
-# Answer: xzyw
+# Answer: xzyw Right
 
 '''_________________________________________________________________________'''
 
 # Number 15
 
-'''print("x y z w")
+print("x y z w")
 for x in 0,1:
     for y in 0,1:
         for z in 0,1:
             for w in 0,1:
                 f = (not((x or not(y)) and (not(z) == w))) or (y and z)
 #                if f == 0:
-                if f == 0 and z == 0 and w == 1:
+                if f == 0:
                     print(x,y,z,w)
-'''
-# Answer: xzwy/yxzw
+
+# Answer: xzwy/yxzw everyone isn't right

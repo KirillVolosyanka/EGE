@@ -17,6 +17,10 @@ for A_down in range(1, 101):
 print(max(answer))
 '''
 
+# 8666 Vasya
+
+
+
 # 8666
 '''
 answer = []
