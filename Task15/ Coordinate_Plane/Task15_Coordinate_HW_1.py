@@ -1,15 +1,31 @@
 # Number 1
-'''
-    Code is here
+
+'''for a in range(0, 1000):
+     Ok = True
+     for x in range(0, 1000):
+         for y in range(0, 1000):
+             if (2*x + 3*y >= 40) or ((x < a) and (y <= a)) == True:
+                 Ok = False
+                 break
+     if Ok:
+        print(a)
 '''
 # Answer: _ _ _ _
 
 '''_________________________________________________________________________'''
 
 # Number 2
-'''
-    Code is here
-'''
+
+for a in range(0, 1000):
+     Ok = True
+     for x in range(0, 1000):
+         for y in range(0, 1000):
+             if (2*x + 3*y >= 40) or ((x < a) and (y <= a)) == True:
+                 Ok = False
+                 break
+     if Ok:
+        print(a)
+
 # Answer: _ _ _ _
 
 '''_________________________________________________________________________'''
