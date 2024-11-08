@@ -27,15 +27,32 @@
 
 #68238
 
-for i in range(1000,2000):
+'''for i in range(1000,2000):
     startNum = str(i)
     num1 = startNum[0] + startNum[1] + startNum[2]
     num2 = startNum[1] + startNum[2] + startNum[3]
     endNum = abs(int(num1) - int(num2))
     print(num1, num2, endNum)
 
-    if endNum == "415":
+    if endNum == 415:
         print(i)
-        break
+        break'''
+
+
+#15128
+
+'''for i in range(1000, 10_000):
+    startNum = str(i)
+    num1 = int(startNum[0]) + int(startNum[1])
+    num2 = int(startNum[1]) + int(startNum[2])
+    num3 = int(startNum[2]) + int(startNum[3])
+    allNums = [num1, num2, num3]
+    allNums.sort()
+    endNum = str(allNums[1]) + str(allNums[2])
+    if endNum == "1315":
+        print(i)'''
+
+
+
 
 
