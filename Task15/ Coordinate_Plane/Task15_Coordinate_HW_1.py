@@ -12,11 +12,9 @@
 '''
 # Answer: _ _ _ _
 
-'''_________________________________________________________________________'''
-
 # Number 2
 
-for a in range(0, 1000):
+'''for a in range(0, 1000):
      Ok = True
      for x in range(0, 1000):
          for y in range(0, 1000):
@@ -25,15 +23,25 @@ for a in range(0, 1000):
                  break
      if Ok:
         print(a)
-
+'''
 # Answer: _ _ _ _
 
 '''_________________________________________________________________________'''
 
 # Number 3
-'''
-    Code is here
-'''
+def func(x, up,down):
+    return (not(down <= x and x <= up) or (x**2 <= 100)) and (not(x**2 <= 64) or (down <= x and x <= up))
+
+for down in range(-500, 500):
+    for up in range (down +1, 500 +1):
+        ok = True
+        for x in range (-1000, 1000):
+             f = func(x,up, down)
+             if f == False:
+                ok = False
+                break
+        if ok:
+                print(up - down)
 # Answer: _ _ _ _
 
 '''_________________________________________________________________________'''
