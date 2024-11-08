@@ -217,13 +217,12 @@ for x in 0,1:
 
 # Number 15
 
-print("x y z w")
+print("x z w y")
 for x in 0,1:
     for y in 0,1:
         for z in 0,1:
             for w in 0,1:
-                f = (not((x or not(y)) and (not(z) == w))) or (y and z)
-#                if f == 0:
+                f = not((x or not(y)) and (not(z) == w)) or (y and z)
                 if f == 0:
                     print(x,y,z,w)
 
