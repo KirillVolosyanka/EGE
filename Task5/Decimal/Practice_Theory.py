@@ -32,7 +32,9 @@ for i in range(1000,2000):
     num1 = startNum[0] + startNum[1] + startNum[2]
     num2 = startNum[1] + startNum[2] + startNum[3]
     endNum = abs(int(num1) - int(num2))
-    if endNum == 415:
+    print(num1, num2, endNum)
+
+    if endNum == "415":
         print(i)
         break
 
