@@ -16,7 +16,7 @@
 '''_________________________________________________________________________'''
 
 # Number 2
-for a in range (0,100):
+'''for a in range (0,100):
     ok = True
     for x in range (0,100):
         if ((x&105 !=0) or ((x & 58 ==0 ) or (x&a !=0))) == 0:
@@ -24,29 +24,51 @@ for a in range (0,100):
 
     if ok:
         print(a)
-        break
+        break'''
 # Answer: 18
 
 '''_________________________________________________________________________'''
 
 # Number 3
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0,500):
+    ok = True
+    for x in range(0,100):
+        if ((x & 73 != 0) or ((x & 28 == 0) or (x & a != 0))) == False:
+            ok = False
+            break
+
+    if ok:
+        print(a)
+        break'''
+# Answer: 20
 
 '''_________________________________________________________________________'''
 
 # Number 4
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0,500):
+    ok = True
+    for X in range(0,500):
+        if ((X&9 != 0) or ((X&19 == 0) or (X&a != 0))) == False:
+            ok = False
+            break
+    if ok:
+        print(a)
+        break'''
+
+# Answer: 18
 
 '''_________________________________________________________________________'''
 
 # Number 5
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0,1000):
+    ok = True
+    for x in range(0,500):
+        if (( x & 25 == 0) or ((x&9 != 0) or (x &a != 0)))== False:
+            ok = False
+            break
+    if ok:
+        print(a)
+        break'''
+
+
+# Answer: 16
