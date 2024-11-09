@@ -29,10 +29,11 @@
 '''_________________________________________________________________________'''
 
 # Number 3
-def func(x, up,down):
+#we tried to do it together, but this shit didn't work, nothing've changed
+'''def func(x, up,down):
     return (not(down <= x and x <= up) or (x**2 <= 100)) and (not(x**2 <= 64) or (down <= x and x <= up))
 
-for down in range(-500, 500):
+for down in range(-100, 100):
     for up in range (down +1, 500 +1):
         ok = True
         for x in range (-1000, 1000):
@@ -41,68 +42,119 @@ for down in range(-500, 500):
                 ok = False
                 break
         if ok:
-                print(up - down)
+                print(up - down)'''
 # Answer: _ _ _ _
 
 '''_________________________________________________________________________'''
 
 # Number 4
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+
+'''for a in range(0,100):
+    ok = True
+    for x in range(0,100):
+        for y in range(0,100):
+            if ((x < a) or (y < a) or (x + 2*y > 50)) == False:
+                ok = False
+                break
+    if ok:
+        print(a)
+        break'''
+# Answer: 17
 
 '''_________________________________________________________________________'''
 
 # Number 5
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0, 300):
+    ok = True
+    for x in range(0, 300):
+        for y in range(0, 300):
+            if ((x * y < 120) or (y > a) or (x > a)) == False:
+                ok = False
+                break
+
+    if ok:
+        print(a)'''
+# Answer: 10
 
 '''_________________________________________________________________________'''
 
 # Number 6
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0,1000):
+    ok = True
+    for x in range(0,1000):
+        for y in range(0, 1000):
+            if ((x + 2*y > 48) or (y>x) or (x + 3* y<a)) == False:
+                ok = False
+                break
+    if not(ok):
+        print(a)'''
+# Answer: 64
 
 '''_________________________________________________________________________'''
 
 # Number 7
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0,500):
+    ok = True
+    for x in range(0,500):
+        for y in range(0,500):
+            if ((x + 3 * y > a) or (x <30) or (y < 30)) == False:
+                ok = False
+                break
+    if ok:
+        print(a)'''
+
+# Answer: 119
 
 '''_________________________________________________________________________'''
 
 # Number 8
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0,500):
+    ok = True
+    for x in range(0,500):
+        for y in range(0,500):
+            if ((4*x + 3 *y <a) or (x>y) or (y>13)) == False:
+                ok = False
+                break
+    if ok:
+        print(a)
+        break'''
+# Answer: 92
 
 '''_________________________________________________________________________'''
 
 # Number 9
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0,500):
+    ok = True
+    for x in range(0,500):
+        for y in range(0, 500):
+            if ((x * y <121) or (y > a) or (x >= a)) == False:
+                ok = False
+
+    if ok:
+        print(a)'''
+# Answer: 11
 
 '''_________________________________________________________________________'''
 
 # Number 10
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+'''for a in range(0,500):
+    ok = True
+    for x in range(0,500):
+        for y in range(0,500):
+            if ((2*x +3*y != 60) or (a>= x) or (a >= y)) == False:
+                ok = False
+                break
+    if ok:
+        print(a)
+        break'''
+# Answer: 12
 
 '''_________________________________________________________________________'''
 
 # Number 11
+
+#For who's sake I've got 5 more tasks, we have only 10 in HW)
+
 '''
     Code is here
 '''
