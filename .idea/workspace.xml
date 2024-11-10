@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW Coordinate">
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW Bitwise">
+      <change afterPath="$PROJECT_DIR$/Task15/Division/TASK15_DIVISION_HW_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task15/Bitwise_Conjunction/Task15_Bitwise_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/Bitwise_Conjunction/Task15_Bitwise_HW_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731168382003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HW Coordinate">
+      <option name="closed" value="true" />
+      <created>1731169480893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731169480893</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HW Bitwise">
+      <option name="closed" value="true" />
+      <created>1731169501157</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731169501157</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +207,8 @@
     <MESSAGE value="Task2_HW_1_Table" />
     <MESSAGE value="Task2_HW_1_Table(Correct)" />
     <MESSAGE value="HW Coordinate" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Coordinate" />
+    <MESSAGE value="HW Bitwise" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Bitwise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
