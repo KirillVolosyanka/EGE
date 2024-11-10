@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW вшмшышщт">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task15/Division/TASK15_DIVISION_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/Division/TASK15_DIVISION_HW_1.py" afterDir="false" />
-    </list>
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW division" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731206774653</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HW division">
+      <option name="closed" value="true" />
+      <created>1731235200520</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731235200520</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +223,8 @@
     <MESSAGE value="HW Coordinate" />
     <MESSAGE value="HW Bitwise" />
     <MESSAGE value="HW вшмшышщт" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW вшмшышщт" />
+    <MESSAGE value="HW division" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW division" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
