@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW division">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW numbers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW/Task15_Numbers_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Numbers_HW_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +51,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Practice_Theory (1).executor": "Run",
     "Python.Practice_Theory.executor": "Run",
     "Python.TASK15_DIVISION_HW_1.executor": "Run",
     "Python.Task15_Bitwise_HW_1.executor": "Run",
     "Python.Task15_Coordinate_HW_1.executor": "Run",
     "Python.Task15_Numbers_HW_1.executor": "Run",
     "Python.Task2_HW_1.executor": "Run",
+    "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
     "Python.main.executor": "Run",
     "Python.task2_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,7 +71,29 @@
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task15_Numbers_HW_1">
+  <component name="RunManager">
+    <configuration name="Practice_Theory (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="General" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task5/Decimal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Practice_Theory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="General" />
       <option name="ENV_FILES" value="" />
@@ -106,6 +130,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW/Task15_Numbers_HW_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Task5_Binary_Decimal_HW_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="General" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,6 +206,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Practice_Theory (1)" />
+        <item itemvalue="Python.Task5_Binary_Decimal_HW_1" />
         <item itemvalue="Python.Task15_Numbers_HW_1" />
         <item itemvalue="Python.Practice_Theory" />
         <item itemvalue="Python.task2_1" />
@@ -253,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731235200520</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW numbers">
+      <option name="closed" value="true" />
+      <created>1731497689140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731497689140</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +332,8 @@
     <MESSAGE value="HW Bitwise" />
     <MESSAGE value="HW вшмшышщт" />
     <MESSAGE value="HW division" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW division" />
+    <MESSAGE value="HW numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

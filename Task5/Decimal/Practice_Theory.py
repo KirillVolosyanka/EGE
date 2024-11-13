@@ -13,9 +13,9 @@
 #8654
 
 '''for i in range (1000, 10_000):
-    startNum = str(i)
-    num1 = int(startNum[0]) * int(startNum[1])
-    num2 = int(startNum[2]) * int(startNum[3])
+    startNumM = str(i)
+    num1 = int(startNumM[0]) * int(startNumM[1])
+    num2 = int(startNumM[2]) * int(startNumM[3])
     firstNum = str(max(num1,num2))
     secondNum = str(min(num1,num2))
     endNum = firstNum + secondNum
@@ -27,15 +27,15 @@
 
 #68238
 
-for i in range(1000,2000):
-    startNum = str(i)
-    num1 = int(startNum[0] + startNum[1] + startNum[2])
-    num2 = int(startNum[1] + startNum[2] + startNum[3])
+'''for i in range(1000,2000):
+    startNumM = str(i)
+    num1 = int(startNumM[0] + startNumM[1] + startNumM[2])
+    num2 = int(startNumM[1] + startNumM[2] + startNumM[3])
     endNum = abs(num1 - num2)
 
     if endNum == 415:
         print(i)
-        break
+        break'''
 
 
 
