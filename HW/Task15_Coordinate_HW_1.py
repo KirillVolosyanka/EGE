@@ -10,7 +10,7 @@
      if Ok:
         print(a)
 '''
-# Answer: _ _ _ _
+# Answer: done
 
 # Number 2
 
@@ -24,14 +24,14 @@
      if Ok:
         print(a)
 '''
-# Answer: _ _ _ _
+# Answer: done
 
 '''_________________________________________________________________________'''
 
 # Number 3
 #we tried to do it together, but this shit didn't work, nothing've changed
-'''def func(x, up,down):
-    return (not(down <= x and x <= up) or (x**2 <= 100)) and (not(x**2 <= 64) or (down <= x and x <= up))
+def func(x, up,down):
+    return ((not(down <= x and x <= up) or (x**2 <= 100)) and (not(x**2 <= 64) or (down <= x and x <= up)))
 
 for down in range(-100, 100):
     for up in range (down +1, 500 +1):
@@ -42,7 +42,7 @@ for down in range(-100, 100):
                 ok = False
                 break
         if ok:
-                print(up - down)'''
+                print(up - down)
 # Answer: _ _ _ _
 
 '''_________________________________________________________________________'''
@@ -59,7 +59,7 @@ for down in range(-100, 100):
     if ok:
         print(a)
         break'''
-# Answer: 17
+# Answer: 17 Right
 
 '''_________________________________________________________________________'''
 
@@ -74,7 +74,7 @@ for down in range(-100, 100):
 
     if ok:
         print(a)'''
-# Answer: 10
+# Answer: 10 Right
 
 '''_________________________________________________________________________'''
 
@@ -88,7 +88,7 @@ for down in range(-100, 100):
                 break
     if not(ok):
         print(a)'''
-# Answer: 64
+# Answer: 64 Right
 
 '''_________________________________________________________________________'''
 
@@ -103,7 +103,7 @@ for down in range(-100, 100):
     if ok:
         print(a)'''
 
-# Answer: 119
+# Answer: 119 Right
 
 '''_________________________________________________________________________'''
 
@@ -118,7 +118,7 @@ for down in range(-100, 100):
     if ok:
         print(a)
         break'''
-# Answer: 92
+# Answer: 92 Right
 
 '''_________________________________________________________________________'''
 
@@ -132,7 +132,7 @@ for down in range(-100, 100):
 
     if ok:
         print(a)'''
-# Answer: 11
+# Answer: 11 Right
 
 '''_________________________________________________________________________'''
 
@@ -147,47 +147,11 @@ for down in range(-100, 100):
     if ok:
         print(a)
         break'''
-# Answer: 12
+# Answer: 12 Right
 
 '''_________________________________________________________________________'''
 
 # Number 11
-
 #For who's sake I've got 5 more tasks, we have only 10 in HW)
 
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
-
-'''_________________________________________________________________________'''
-
-# Number 12
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
-
-'''_________________________________________________________________________'''
-
-# Number 13
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
-
-'''_________________________________________________________________________'''
-
-# Number 14
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
-
-'''_________________________________________________________________________'''
-
-# Number 15
-'''
-    Code is here
-'''
-# Answer: _ _ _ _
+# I just forgot correct this file)))

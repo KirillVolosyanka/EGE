@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW division" />
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Lesson3_Division">
+      <change beforePath="$PROJECT_DIR$/.idea/General.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/General.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task15/ Coordinate_Plane/Task15_Coordinate_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Coordinate_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task15/Bitwise_Conjunction/Task15_Bitwise_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Bitwise_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task15/Number_Lines/Task15_Numbers_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Numbers_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/Homework" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Division_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/Practice" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/Task2_HW/Task2_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task2_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +38,12 @@
     &quot;assignee&quot;: &quot;KirillVolosyanka&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KirillVolosyanka/EGE.git",
-    "accountId": "c4b020cb-d7a5-405c-84a5-6007ff2bb6bd"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KirillVolosyanka/EGE.git&quot;,
+    &quot;accountId&quot;: &quot;8e4dcb05-7c89-4c98-818b-d305e8e4e5ce&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,26 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Practice_Theory.executor": "Run",
-    "Python.TASK15_DIVISION_HW_1.executor": "Run",
-    "Python.Task15_Bitwise_HW_1.executor": "Run",
-    "Python.Task15_Coordinate_HW_1.executor": "Run",
-    "Python.Task2_HW_1.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.task2_1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task15\ Coordinate_Plane" />
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="General" />
       <option name="ENV_FILES" value="" />
@@ -117,7 +127,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -161,47 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728408463037</updated>
     </task>
-    <task id="LOCAL-00005" summary="HW Coordinate">
+    <task id="LOCAL-00005" summary="Lesson3_Division">
       <option name="closed" value="true" />
-      <created>1731168382003</created>
+      <created>1730991100067</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1731168382003</updated>
+      <updated>1730991100067</updated>
     </task>
-    <task id="LOCAL-00006" summary="HW Coordinate">
-      <option name="closed" value="true" />
-      <created>1731169480893</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1731169480893</updated>
-    </task>
-    <task id="LOCAL-00007" summary="HW Bitwise">
-      <option name="closed" value="true" />
-      <created>1731169501157</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1731169501157</updated>
-    </task>
-    <task id="LOCAL-00008" summary="HW вшмшышщт">
-      <option name="closed" value="true" />
-      <created>1731206774651</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1731206774653</updated>
-    </task>
-    <task id="LOCAL-00009" summary="HW division">
-      <option name="closed" value="true" />
-      <created>1731235200520</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1731235200520</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,11 +198,8 @@
     <MESSAGE value="First_commit" />
     <MESSAGE value="Task2_HW_1_Table" />
     <MESSAGE value="Task2_HW_1_Table(Correct)" />
-    <MESSAGE value="HW Coordinate" />
-    <MESSAGE value="HW Bitwise" />
-    <MESSAGE value="HW вшмшышщт" />
-    <MESSAGE value="HW division" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW division" />
+    <MESSAGE value="Lesson3_Division" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson3_Division" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
