@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW numbers">
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW number &amp; n5">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2024_17_20_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2024_17_20__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2024_17_58_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2024_17_58__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Practice_Theory (1).executor": "Run",
-    "Python.Practice_Theory.executor": "Run",
-    "Python.TASK15_DIVISION_HW_1.executor": "Run",
-    "Python.Task15_Bitwise_HW_1.executor": "Run",
-    "Python.Task15_Coordinate_HW_1.executor": "Run",
-    "Python.Task15_Numbers_HW_1.executor": "Run",
-    "Python.Task2_HW_1.executor": "Run",
-    "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.task2_1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Practice_Theory (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TASK15_DIVISION_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Bitwise_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Numbers_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task15\ Coordinate_Plane" />
@@ -309,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731497689140</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HW number &amp; n5">
+      <option name="closed" value="true" />
+      <created>1731507054277</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731507054277</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +343,8 @@
     <MESSAGE value="HW вшмшышщт" />
     <MESSAGE value="HW division" />
     <MESSAGE value="HW numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW numbers" />
+    <MESSAGE value="HW number &amp; n5" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW number &amp; n5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

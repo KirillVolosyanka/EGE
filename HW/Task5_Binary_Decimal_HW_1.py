@@ -2,30 +2,50 @@
 
 # nuhuya ne ponyal vobshe
 
-'''MaxLenRs = []
-for n in range(1,500):
-    R = bin(n) [2::]
+'''MaxLenRs = [0] * 10000
+for n in range(1,1000):
+    R = bin(n) [2:]
     decDiv = n % 4
-    binDiv = bin(decDiv)[2::]
+    binDiv = bin(decDiv)[2:]
     R += str(binDiv)
     R = int(R,2)
-    R = bin(R)[2::]
-    print(R)
-    res = int(R,2)
-    MaxLenRs.append(res)
+    MaxLenRs[R] = 1
+print(MaxLenRs)
 
 
-print(max(MaxLenRs))'''
+
+maxSumLenRes = 0
+for i in range(10_001 - 49):
+    maxSumLenRes = max(maxSumLenRes, sum(MaxLenRs[i : i + 49]))
 
 
-# Answer:
+print(maxSumLenRes)'''
+from itertools import count
 
+# Answer: 19
 '''_________________________________________________________________________'''
 
 # Number 2
+'''for n in range(1,5000):
+
+    binN = str(bin(n)[2::])
+    chN = 0
+    chN += binN.count("1")
+    binN = binN + str(chN % 2)
+
+    chN = 0
+    chN += binN.count("1")
+    binN = binN + str(chN % 2)
+
+    if (int(binN, 2) > 97):
+        print(int(binN, 2))
+        break
+
 '''
-'''
-# da v pizdu, ya nihuya ne znau
+
+
+
+
 # Answer:
 
 '''_________________________________________________________________________'''
