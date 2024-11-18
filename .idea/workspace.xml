@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW number &amp; n5">
-      <change beforePath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" afterDir="false" />
-    </list>
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="back up" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -322,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731944267415</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="back up">
+      <option name="closed" value="true" />
+      <created>1731944403708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731944403708</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +354,8 @@
     <MESSAGE value="HW numbers" />
     <MESSAGE value="Back up" />
     <MESSAGE value="HW number &amp; n5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW number &amp; n5" />
+    <MESSAGE value="back up" />
+    <option name="LAST_COMMIT_MESSAGE" value="back up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
