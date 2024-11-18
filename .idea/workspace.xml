@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW number &amp; n5">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2024_17_20_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2024_17_20__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2024_17_58_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2024_17_58__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Back up">
       <change beforePath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +68,7 @@
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Practice_Theory (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="General" />
       <option name="ENV_FILES" value="" />
@@ -344,7 +339,8 @@
     <MESSAGE value="HW division" />
     <MESSAGE value="HW numbers" />
     <MESSAGE value="HW number &amp; n5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW number &amp; n5" />
+    <MESSAGE value="Back up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Back up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
