@@ -109,7 +109,7 @@ for A_down in range(4, 21):
 print(min(answer))
 '''
 
-'''res = []
+res = []
 P = [i for i in range(4, 15)]
 Q = [i for i in range(12, 20)]
 
@@ -125,4 +125,4 @@ for A_down in range(4, 21):
         if ok == True:
             res.append(A_up - A_down)
 
-print(max(res))'''
+print(max(res))
