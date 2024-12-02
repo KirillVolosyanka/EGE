@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task 14(1)">
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task 14(Difficult number)">
+      <change afterPath="$PROJECT_DIR$/HW/Task14_HW8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task14/Task14_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task14/Task14_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW/Task15_Bitwise_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Bitwise_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW/Task15_Division_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Division_HW_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +54,11 @@
     "Python.Practice_Theory (1).executor": "Run",
     "Python.Practice_Theory.executor": "Run",
     "Python.TASK15_DIVISION_HW_1.executor": "Run",
+    "Python.Task14_HW8.executor": "Run",
     "Python.Task14_Practice.executor": "Run",
     "Python.Task15_Bitwise_HW_1.executor": "Run",
     "Python.Task15_Coordinate_HW_1.executor": "Run",
+    "Python.Task15_Division_HW_1.executor": "Run",
     "Python.Task15_Numbers_HW_1.executor": "Run",
     "Python.Task15_Practice.executor": "Run",
     "Python.Task2_HW_1.executor": "Run",
@@ -349,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732549336225</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Task 14(Difficult number)">
+      <option name="closed" value="true" />
+      <created>1732554302684</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732554302684</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +389,8 @@
     <MESSAGE value="HW number &amp; n5" />
     <MESSAGE value="back up" />
     <MESSAGE value="Task 14(1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 14(1)" />
+    <MESSAGE value="Task 14(Difficult number)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 14(Difficult number)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
