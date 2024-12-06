@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task 14(Difficult number)">
-      <change afterPath="$PROJECT_DIR$/HW/Task14_HW8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task16/Task16_Practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW/Task15_Bitwise_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Bitwise_HW_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW/Task15_Division_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task15_Division_HW_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +59,7 @@
     "Python.Task15_Division_HW_1.executor": "Run",
     "Python.Task15_Numbers_HW_1.executor": "Run",
     "Python.Task15_Practice.executor": "Run",
+    "Python.Task16_Practice.executor": "Run",
     "Python.Task2_HW_1.executor": "Run",
     "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
     "Python.main.executor": "Run",
@@ -361,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732554302684</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Task 14(Difficult number)">
+      <option name="closed" value="true" />
+      <created>1733150357793</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733150357793</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
