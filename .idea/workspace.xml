@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task 14(1)">
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task 16 Practice(1)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task16/Task16_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task16/Task16_Practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task23/Task23_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task23/Task23_Practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/KirillVolosyanka/EGE.git&quot;,
-    &quot;accountId&quot;: &quot;c4b020cb-d7a5-405c-84a5-6007ff2bb6bd&quot;
+    &quot;accountId&quot;: &quot;8e4dcb05-7c89-4c98-818b-d305e8e4e5ce&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -48,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Practice_Theory (1).executor": "Run",
-    "Python.Practice_Theory.executor": "Run",
-    "Python.TASK15_DIVISION_HW_1.executor": "Run",
-    "Python.Task14_Practice.executor": "Run",
-    "Python.Task15_Bitwise_HW_1.executor": "Run",
-    "Python.Task15_Coordinate_HW_1.executor": "Run",
-    "Python.Task15_Numbers_HW_1.executor": "Run",
-    "Python.Task15_Practice.executor": "Run",
-    "Python.Task16_Practice.executor": "Run",
-    "Python.Task23_Practice.executor": "Run",
-    "Python.Task2_HW_1.executor": "Run",
-    "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.task2_1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Practice_Theory (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TASK15_DIVISION_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task14_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Bitwise_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Numbers_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task16_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task23_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task15\ Coordinate_Plane" />
@@ -221,7 +220,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -353,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732549336225</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Task 16 Practice(1)">
+      <option name="closed" value="true" />
+      <created>1733484732641</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733484732641</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,7 +388,8 @@
     <MESSAGE value="HW number &amp; n5" />
     <MESSAGE value="back up" />
     <MESSAGE value="Task 14(1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 14(1)" />
+    <MESSAGE value="Task 16 Practice(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 16 Practice(1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
