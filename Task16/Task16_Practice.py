@@ -12,7 +12,6 @@ print(F(32))
 '''
 
 # 47220
-
 slovar = {1 : 1}
 for i in range(2, 2024):
     slovar[i] = i * slovar[i - 1]
