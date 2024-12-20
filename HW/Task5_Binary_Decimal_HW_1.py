@@ -20,7 +20,7 @@ for i in range(10_001 - 49):
 
 
 print(maxSumLenRes)'''
-from itertools import count
+
 
 # Answer: 19
 '''_________________________________________________________________________'''
@@ -39,20 +39,26 @@ from itertools import count
 
     if (int(binN, 2) > 97):
         print(int(binN, 2))
-        break
-
-'''
-
-
-
-
-# Answer:
+        break'''
+# Answer: 102
 
 '''_________________________________________________________________________'''
 
 # Number 3
 
-''''''
+for n in range(0,255):
+
+    binN = str(bin(n)[2::])
+    binN8 = format(n, '08b')
+    #print(binN)
+    #print(binN8)
+    binN8 = binN8.replace('0', 'X').replace('1', '0').replace('X', '1')
+    #print(binN8)
+    intN = int(binN8)
+    res = n - intN
+
+    if res == 111:
+        print(n)
 
 # Answer:
 
