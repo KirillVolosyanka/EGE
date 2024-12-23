@@ -107,7 +107,7 @@ print(f(40,20)*f(20,4))
 '''
 
 # 46981
-'''def f(x, y, Flag):
+def f(x, y, Flag):
     if x > y:
         return 0
     if x == y:
@@ -117,7 +117,7 @@ print(f(40,20)*f(20,4))
     else:
         return f(x + 1, y, True) + f(x + 2, y, True)
 
-print(f(1, 11, True))'''
+print(f(1, 11, True))
 
 #52194
 def f(x,y,Flag, Flag2):
