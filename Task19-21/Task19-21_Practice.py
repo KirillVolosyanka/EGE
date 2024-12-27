@@ -154,3 +154,4 @@ print("----")
 for x in range(1,70):
     if func(x,7,1) == 1:
         print(x)
+
