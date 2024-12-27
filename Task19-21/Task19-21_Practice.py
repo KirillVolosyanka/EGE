@@ -121,7 +121,7 @@ for x in range(1,70):
 #ans: 3134
 '''
 #n21
-def func(x,y,h):
+'''def func(x,y,h):
     if h == 3 and x + y >= 77:
         return 1
     elif h == 3 and x + y < 77:
@@ -153,5 +153,144 @@ for x in range(1,70):
 print("----")
 for x in range(1,70):
     if func(x,7,1) == 1:
-        print(x)
+        print(x)'''
 
+#27768
+#n19
+'''def f(x,y,h):
+    if x + y >= 84 and h == 3:
+        return 1
+    elif x + y >= 84 and h < 3:
+        return 0
+    elif x + y < 84 and h == 3:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f(x + 1,y,h+1) or f(x,y +1 ,h+1) or f(x*2,y,h+1) or f(x,y*3,h+1)
+        else:
+            return f(x + 1, y, h + 1) or f(x, y + 1, h + 1) or f(x * 2, y, h + 1) or f(x, y * 3, h + 1)
+
+for x in range(1,68):
+    if f(16,x,1) == True:
+        print(x)'''
+
+#n20
+
+'''def f1(x,y,h):
+    if x + y >= 84 and h == 4:
+        return 1
+    elif x + y >= 84 and h < 4:
+        return 0
+    elif x + y <= 84 and h == 4:
+        return 0
+    else:
+        if h % 2 != 0:
+            return f1(x + 1,y,h+1) or f1(x,y+1,h+1) or f1(x*2,y,h+1) or f1(x,y*3,h+1)
+        else:
+            return f1(x + 1,y,h+1) and f1(x,y+1,h+1) and f1(x*2,y,h+1) and f1(x,y*3,h+1)
+
+for x in range(1,68):
+    if f1(16,x,1) == True:
+        print(x)'''
+
+#n21
+
+'''def f2(x,y,h):
+    if x + y >= 84 and (h == 5 or h == 3):
+        return 1
+    elif x+ y >= 84 and h < 5:
+        return 0
+    elif x + y < 84 and h == 5:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f2(x + 1,y,h+1) or f2(x,y+1,h+1) or f2(x*2,y,h+1) or f2(x,y*3,h+1)
+        else:
+            return f2(x + 1,y,h+1) and f2(x,y+1,h+1) and f2(x*2,y,h+1) and f2(x,y*3,h+1)
+
+def f2_2(x,y,h):
+    if x + y >= 84 and h == 3:
+        return 1
+    elif x + y >= 84 and h < 3:
+        return 0
+    elif x + y < 84 and h == 3:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f2_2(x + 1,y,h+1) or f2_2(x,y +1 ,h+1) or f2_2(x*2,y,h+1) or f2_2(x,y*3,h+1)
+        else:
+            return f2_2(x + 1, y, h + 1) and f2_2(x, y + 1, h + 1) and f2_2(x * 2, y, h + 1) and f2_2(x, y * 3, h + 1)
+for x in range(1,68):
+    if (f2(16,x,1) == True) and (f2_2(16,x,1) == False):
+        print(x)'''
+
+#27780
+
+#n19
+
+'''def f(x,y,h):
+    if h == 3 and x + y >= 74:
+        return 1
+    elif h == 3 and x + y < 74:
+        return 0
+    elif h < 3  and x + y >= 74:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f(x+1,y,h+1) or f(x,y+1,h+1) or f(x*2,y,h+1) or f(x,y*2,h+1)
+        else:
+            return f(x + 1, y, h + 1) or f(x, y + 1, h + 1) or f(x * 2, y, h + 1) or f(x, y * 2, h + 1)
+
+for x in range(1,62):
+    if f(12, x, 1) == True:
+        print(x)'''
+
+#n20
+
+'''def f1(x,y,h):
+    if h == 4 and x + y >= 74:
+        return 1
+    elif h == 4 and x + y < 74:
+        return 0
+    elif h < 4 and x + y >= 74:
+        return 0
+    else:
+        if h %2 !=0:
+            return f1(x+1,y,h+1) or f1(x,y+1,h+1) or f1(x*2,y,h+1) or f1(x,y*2,h+1)
+        else:
+            return f1(x + 1, y, h + 1) and f1(x, y + 1, h + 1) and f1(x * 2, y, h + 1) and f1(x, y * 2, h + 1)
+
+for x in range(1,62):
+    if f1(12,x,1) == True:
+        print(x)'''
+#21
+
+def f2_2(x,y,h):
+    if h == 3 and x + y >= 74:
+        return 1
+    elif h == 3 and x + y < 74:
+        return 0
+    elif h < 3  and x + y >= 74:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f2_2(x+1,y,h+1) or f2_2(x,y+1,h+1) or f2_2(x*2,y,h+1) or f2_2(x,y*2,h+1)
+        else:
+            return f2_2(x + 1, y, h + 1) and f2_2(x, y + 1, h + 1) and f2_2(x * 2, y, h + 1) and f2_2(x, y * 2, h + 1)
+
+def f2(x,y,h):
+    if (h == 3 or h ==5) and x + y >= 74:
+        return 1
+    if x + y >= 74 and h < 5:
+        return 0
+    if x + y <= 74 and h == 5:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f2(x+1,y,h+1) or f2(x,y+1,h+1) or f2(x*2,y,h+1) or f2(x,y*2,h+1)
+        else:
+            return f2(x + 1, y, h + 1) and f2(x, y + 1, h + 1) and f2(x * 2, y, h + 1) and f2(x, y * 2, h + 1)
+
+for x in range(1,62):
+    if (f2(12,x,1) == True) and (f2_2(12,x,1) == False):
+        print(x)

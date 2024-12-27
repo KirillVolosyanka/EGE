@@ -95,7 +95,7 @@ print(maxSumLenRes)'''
 for n in range(1,100):
     binN = bin(n)[2::]
     binN = str(binN)
-    for i in range
+
 
 
 
