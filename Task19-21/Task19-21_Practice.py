@@ -265,7 +265,7 @@ for x in range(1,62):
         print(x)'''
 #21
 
-def f2_2(x,y,h):
+'''def f2_2(x,y,h):
     if h == 3 and x + y >= 74:
         return 1
     elif h == 3 and x + y < 74:
@@ -293,4 +293,77 @@ def f2(x,y,h):
 
 for x in range(1,62):
     if (f2(12,x,1) == True) and (f2_2(12,x,1) == False):
+        print(x)'''
+
+#27805
+#19
+'''def f(x,h):
+    if h == 3 and x >= 63:
+        return 1
+    elif h == 3 and x < 63:
+        return 0
+    elif h < 3 and x  >= 63:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f(x+1,h+1) or f(x+4,h+1) or f(x*5,h+1)
+        else:
+            return f(x+1, h + 1) or f(x+4, h + 1) or f(x*5, h + 1)
+
+for x in range(1,63):
+    if f(x,1) == True:
+        print(x)'''
+
+#20
+'''def f(x,h):
+    if h == 4 and x >= 63:
+        return 1
+    elif h == 4 and x <= 63:
+        return 0
+    elif h <4 and x>= 63:
+        return 0
+    else:
+        if h % 2 != 0:
+            return f(x+1,h+1) or f(x+4,h+1) or f(x*5,h+1)
+        else:
+            return f(x+1,h+1) and f(x+4,h+1) and f(x*5,h+1)
+
+for x in range(1,63):
+    if f(x,1)== True:
+        print(x)'''
+
+#21
+
+def f2(x,h):
+    if (h == 5 or h ==3) and x >= 63:
+        return 1
+    elif x >= 63 and h < 5:
+        return 0
+    elif x <= 63 and h == 5:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f2(x+1,h+1) or f2(x+4,h+1) or f2(x*5,h+1)
+        else:
+            return f2(x+1, h + 1) and f2(x+4, h + 1) and f2(x*5, h + 1)
+
+def f2_2(x,h):
+    if h == 3 and x >= 63:
+        return 1
+    elif h == 3 and x < 63:
+        return 0
+    elif h < 3 and x  >= 63:
+        return 0
+    else:
+        if h % 2 == 0:
+            return f2_2(x + 1, h + 1) or f2_2(x + 4, h + 1) or f2_2(x * 5, h + 1)
+        else:
+            return f2_2(x + 1, h + 1) and f2_2(x + 4, h + 1) and f2_2(x * 5, h + 1)
+
+for x in range(1,63):
+    if (f2(x,1) == True) and (f2_2(x,1) == False):
         print(x)
+
+
+
+

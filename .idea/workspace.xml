@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW Task15 Nums">
-      <change beforePath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task19-21/Task19-21_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task19-21/Task19-21_Practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Practice_Theory (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="General" />
       <option name="ENV_FILES" value="" />
@@ -377,7 +377,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735298379395</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HW Task15 Nums">
+      <option name="closed" value="true" />
+      <created>1735304849505</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735304849505</updated>
+    </task>
+    <task id="LOCAL-00020" summary="HW Task15 Nums">
+      <option name="closed" value="true" />
+      <created>1735304856942</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1735304856942</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
