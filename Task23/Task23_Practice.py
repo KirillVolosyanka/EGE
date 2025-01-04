@@ -131,5 +131,6 @@ def f(x,y,Flag, Flag2):
         elif Flag2 == False and Flag == True:
             return f(x+1,y,False,True)
         else:
+
             return f(x+1, y, False,True) + f(x*2,y, True,False)
 print(f(1,16,True,True))

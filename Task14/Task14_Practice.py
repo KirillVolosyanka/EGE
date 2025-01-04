@@ -152,3 +152,10 @@ for x in range(1,39):
             print("    x,y =", x, y)
             otvet = (y*39**1 + x)
             print(otvet)
+
+def conv(n, sys):
+    res = ''
+    while n:
+        res = str(n % sys) + res
+        n //= sys
+    return res
