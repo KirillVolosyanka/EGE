@@ -28,7 +28,7 @@ for n1 in letterss:
 print(c)'''
 #16813
 
-letter = "ЛЕВИЙ"
+'''letter = "ЛЕВИЙ"
 c = 0
 for n1 in letter:
     for n2 in letter:
@@ -40,4 +40,40 @@ for n1 in letter:
                         if ((word.count("Й") == 1) and (word.count("Л") == 1) and (word.count("Е") == 1) and (word.count("И") == 1) and (word.count("В") == 1)):
                             if n1 != "Й":
                                 c+=1
-print(c)
+print(c)'''
+
+#58516
+
+'''alpha = "ВИКОРТ"
+c=0
+for n1 in alpha:
+    for n2 in alpha:
+        for n3 in alpha:
+            for n4 in alpha:
+                for n5 in alpha:
+                    for n6 in alpha:
+                        word = n1+n2+n3+n4+n5+n6
+                        if word.count("В") == 1 and word.count("И") == 1 and word.count("К") == 1 and word.count("Т") == 1 and word.count("О") == 1 and word.count("Р") == 1:
+                            c+=1
+                            print(word, c)
+                        if c  ==170:
+                            print(word)'''
+
+from functools import cache
+@cache
+def f(n):
+    n = str(n)
+    num = []
+
+    if len(n) == 11:
+        return 1
+
+    for i in range(0,9):
+        if ((int(n[-1]) + i) % 2 == 0) and  int(n[-1]) < i:
+            num.append(int(n + str(i)))
+        elif ((int(n[-1]) + i) % 2 != 0) and  int(n[-1]) > i:
+            num.append(int(n + str(i)))
+
+    return sum(f(i) for i in num)
+
+print(sum(f(i)for i in range(1,9)))
