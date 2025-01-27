@@ -34,7 +34,7 @@ for num in range(0, 10**9, 23):
 #соответствуют маске *31*65?;
 #делятся на 31 и 2031 без остатка;
 
-def F(num):
+'''def F(num):
     dvoika = []
     for i in range(0, 20):
         dvoika.append(2**i)
@@ -52,12 +52,18 @@ for num in range(0,10**9,2031):
     if num % 31 == 0:
         num_line = str(num)
 
-        if num_line[:2] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031)
-        if num_line[1:3] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031)
-        if num_line[2:4] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031)
-        if num_line[3:5] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031)
-        if num_line[4:6] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031)
+        if num_line[:2] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031, F(num))
+        if num_line[1:3] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031, F(num))
+        if num_line[2:4] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031, F(num))
+        if num_line[3:5] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031, F(num))
+        if num_line[4:6] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031, F(num))'''
 
-print(F(53831655))
 
-#53831655
+
+#60267
+
+for num in range (0,10**10,2024):
+    num_line = str(num)
+#1?2157*4
+    if num_line[0] == "1" and num_line[2:6] == "2157" and num_line[-1] == "4":
+        print(num,num/2024)
