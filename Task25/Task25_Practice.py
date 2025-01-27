@@ -34,6 +34,20 @@ for num in range(0, 10**9, 23):
 #соответствуют маске *31*65?;
 #делятся на 31 и 2031 без остатка;
 
+def F(num):
+    dvoika = []
+    for i in range(0, 20):
+        dvoika.append(2**i)
+    c = 1
+    for i in range(1, (num // 2) + 1):
+        if num % i == 0:
+            c += 1
+    if dvoika.count(c) != 0:
+        return True
+    else:
+        return False
+
+
 for num in range(0,10**9,2031):
     if num % 31 == 0:
         num_line = str(num)
@@ -44,3 +58,6 @@ for num in range(0,10**9,2031):
         if num_line[3:5] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031)
         if num_line[4:6] == "31" and num_line[-3] == "6" and num_line[-2] == "5": print(num, num/2031)
 
+print(F(53831655))
+
+#53831655
