@@ -141,7 +141,7 @@ for x in "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#":
         if res % 38 == 0:
             if f(y + x) **0.5 % 1 == 0:
                 print(f(y + x))'''
-
+'''
 d1 = 5*39**8 + 8*39**7 + 7*39**5 + 2*39**4 + 3*39**3 + 4*39**1 + 9  # постоянная часть числа не меняющаяся в цикле
 for x in range(1,39):
     for y in range(1,39):
@@ -152,6 +152,21 @@ for x in range(1,39):
             print("    x,y =", x, y)
             otvet = (y*39**1 + x)
             print(otvet)
+'''
+'''
+from datetime import datetime
+t = datetime.now()
+dx=39**4
+x = 0
+y = 38
+while not((x*dx + y) % 38 == 0 and ((y*39 + x)**0.5).is_integer()):
+    x += 1
+    y -= x
+t1 = datetime.now()
+print(x*dx + y)
+print(x, y)
+print('RESULT -', (y*39 + x))
+print(t1-t)'''
 
 def conv(n, sys):
     res = ''

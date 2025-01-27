@@ -1,8 +1,10 @@
+'''1, 3 and 5 do'''
+
 # Number 1
 
 # nuhuya ne ponyal vobshe
-
-'''MaxLenRs = [0] * 10000
+'''
+MaxLenRs = [0] * 10000
 for n in range(1,1000):
     R = bin(n) [2:]
     decDiv = n % 4
@@ -19,8 +21,8 @@ for i in range(10_001 - 49):
     maxSumLenRes = max(maxSumLenRes, sum(MaxLenRs[i : i + 49]))
 
 
-print(maxSumLenRes)'''
-
+print(maxSumLenRes)
+'''
 
 # Answer: 19
 '''_________________________________________________________________________'''
@@ -45,8 +47,8 @@ print(maxSumLenRes)'''
 '''_________________________________________________________________________'''
 
 # Number 3
-
-'''for n in range(0,255):
+'''
+for n in range(0,255):
 
     binN = str(bin(n)[2::])
     binN8 = format(n, '08b')
@@ -92,13 +94,24 @@ print(maxSumLenRes)'''
 #2. ВЫЧИСЛЯЕТСЯ КОЛИЧЕСТВО ЕДИНИЦ, СТОЯЩИХ НА ЧЁТНЫХ МЕСТАХ В ДВОИЧНОЙ ЗАПИСИ ЧИСЛА N БЕЗ ВЕДУЩИХ НУЛЕЙ, И КОЛИЧЕСТВО НУЛЕЙ,
 # СТОЯЩИХ НА НЕЧЁТНЫХ МЕСТАХ. МЕСТА ОТСЧИТЫВАЮТСЯ СЛЕВА НАПРАВО (ОТ СТАРШИХ РАЗРЯДОВ К МЛАДШИМ, НАЧИНАЯ С ЕДИНИЦЫ).
 #3. РЕЗУЛЬТАТОМ РАБОТЫ АЛГОРИТМА СТАНОВИТСЯ МОДУЛЬ РАЗНОСТИ ПОЛУЧЕННЫХ ДВУХ ЧИСЕЛ.
-for n in range(1,100):
+
+def sumChNech(binN):
+    c0 = 0
+    c1 = 0
+    for i in range(0, len(binN), 2): #Nech
+        if binN[i] == "0":
+            c0 += 1
+    for i in range(1, len(binN), 2): #Nech
+        if binN[i] == "1":
+            c1 += 1
+    return abs(c1-c0)
+
+
+for n in range(1,1024):
     binN = bin(n)[2::]
     binN = str(binN)
-
-
-
-
+    if sumChNech(binN) == 5:
+        print(int(binN, 2))
 
 
 

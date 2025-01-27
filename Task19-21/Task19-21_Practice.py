@@ -121,7 +121,8 @@ for x in range(1,70):
 #ans: 3134
 '''
 #n21
-'''def func(x,y,h):
+'''
+def func(x,y,h):
     if h == 3 and x + y >= 77:
         return 1
     elif h == 3 and x + y < 77:
@@ -363,7 +364,4 @@ def f2_2(x,h):
 for x in range(1,63):
     if (f2(x,1) == True) and (f2_2(x,1) == False):
         print(x)
-
-
-
 
