@@ -9,7 +9,8 @@ for num in range(0, 10**9, 23):
 
 '''for num in range(0, 10**10, 2023):
     num_line = str(num)
-    if num_line[0] == "1" and num_line[2] == "2" and num_line[3] == "1" and num_line[4] == "3" and num_line[5] == "9" and num_line[-1] == "4":
+    if num_line[0] == "1" and num_line[2] == "2" and num_line[3] == "1" 
+        and num_line[4] == "3" and num_line[5] == "9" and num_line[-1] == "4":
         print(num, num / 2023)'''
 
 #48446
@@ -99,3 +100,34 @@ for i in range(174457, 174506):
     if len(Delit(i)):
         print(Delit(i))'''
 
+
+#27850
+'''c = 0
+for i in range(245690,245757):
+    c+=1
+    ok = True
+    for j in range(2,i//2):
+        if i%j == 0:
+            ok = False
+            break
+    if ok == True:
+        print(c, i)'''
+#27851
+'''c = 0
+num = []
+for i in range(210235,210301):
+for i in range(210235,210301):
+    c = 0
+    for j in range(2,i//2+1):
+        if i % j == 0:
+            c+=1
+            num.append(j)
+        if c > 4:
+            num.clear()
+            break
+    if c == 4:
+        print(num)'''
+
+#27856
+
+for i in range(210235,210301):

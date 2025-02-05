@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_01_2025_18_46_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_01_2025_18_46__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_01_2025_19_24_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_01_2025_19_24__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task25/Task25_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task25/Task25_Practice.py" afterDir="false" />
     </list>
@@ -32,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/KirillVolosyanka/EGE.git&quot;,
-    &quot;accountId&quot;: &quot;8e4dcb05-7c89-4c98-818b-d305e8e4e5ce&quot;
+    &quot;accountId&quot;: &quot;c4b020cb-d7a5-405c-84a5-6007ff2bb6bd&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -49,10 +54,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Python.Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.Practice_Theory (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
     &quot;Python.TASK15_DIVISION_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task14_HW8.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task14_Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task15_Bitwise_HW_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,
@@ -64,6 +69,7 @@
     &quot;Python.Task25_Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task8_Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -114,6 +120,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Task14_HW8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EGEE" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW/Task14_HW8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,42 +216,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task2_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="General" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain\task2_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task14_HW8" />
         <item itemvalue="Python.Practice_Theory (1)" />
         <item itemvalue="Python.Task5_Binary_Decimal_HW_1" />
         <item itemvalue="Python.Task15_Numbers_HW_1" />
         <item itemvalue="Python.Practice_Theory" />
-        <item itemvalue="Python.task2_1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -371,7 +377,63 @@
       <option name="project" value="LOCAL" />
       <updated>1734976547774</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HW Task15 Nums">
+      <option name="closed" value="true" />
+      <created>1735298379395</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1735298379395</updated>
+    </task>
+    <task id="LOCAL-00019" summary="HW Task15 Nums">
+      <option name="closed" value="true" />
+      <created>1735304849505</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735304849505</updated>
+    </task>
+    <task id="LOCAL-00020" summary="HW Task15 Nums">
+      <option name="closed" value="true" />
+      <created>1735304856942</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1735304856942</updated>
+    </task>
+    <task id="LOCAL-00021" summary="-">
+      <option name="closed" value="true" />
+      <created>1735724669155</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1735724669155</updated>
+    </task>
+    <task id="LOCAL-00022" summary="-">
+      <option name="closed" value="true" />
+      <created>1735724696467</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1735724696467</updated>
+    </task>
+    <task id="LOCAL-00023" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1735987376293</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1735987376293</updated>
+    </task>
+    <task id="LOCAL-00024" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1737995675553</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1737995675553</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,7 +462,9 @@
     <MESSAGE value="back up" />
     <MESSAGE value="Task 14(1)" />
     <MESSAGE value="HW Task15 Nums" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Task15 Nums" />
+    <MESSAGE value="-" />
+    <MESSAGE value="HW8" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
