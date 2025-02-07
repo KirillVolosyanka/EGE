@@ -129,5 +129,3 @@ for i in range(210235,210301):
         print(num)'''
 
 #27856
-
-for i in range(210235,210301):
