@@ -180,12 +180,10 @@ for i in range(489421, 489440+1):
         c2.clear()'''
 
 
-#
+#36880
 
-
-
-
-
-
-
-
+for m in range(0, 31, 2):
+    for n in range(1, 32, 2):
+        num = 2**m * 3**n
+        if 400_000_000 <= num and num <= 600_000_000:
+            print(num)
