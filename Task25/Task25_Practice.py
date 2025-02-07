@@ -101,6 +101,9 @@ for i in range(174457, 174506):
         print(Delit(i))'''
 
 
+
+
+
 #27850
 '''c = 0
 for i in range(245690,245757):
@@ -129,3 +132,21 @@ for i in range(210235,210301):
         print(num)'''
 
 #27856
+def F(n):
+    c = 0
+    delitels = []
+    for delit in range(1, n + 1, 2):
+        if n % delit == 0:
+            c += 1
+            delitels.append(delit)
+        if c > 6:
+            return False
+    if c == 6:
+        return True, delitels
+    else:
+        return False
+
+for n in range(95632, 95651):
+    if F(n):
+        t = F(n)[1]
+        print(t)
