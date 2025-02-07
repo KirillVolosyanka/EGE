@@ -132,7 +132,7 @@ for i in range(210235,210301):
         print(num)'''
 
 #27856
-def F(n):
+'''def F(n):
     c = 0
     delitels = []
     for delit in range(1, n + 1, 2):
@@ -149,4 +149,43 @@ def F(n):
 for n in range(95632, 95651):
     if F(n):
         t = F(n)[1]
-        print(t)
+        print(t)'''
+
+#27858
+'''c1 = 0
+c2 = 0
+for i in range(120115,120200+1):
+    c = 1
+    for n in range(1, i//2 +1):
+        if i % n == 0:
+            c+=1
+            if c > c1:
+                c1 = c
+                c2 = i
+
+print(c2,c1)'''
+
+#28122
+'''c2 = []
+for i in range(489421, 489440+1):
+    c = 0
+    for n in range(1,i+1):
+        if i % n  == 0:
+            c+=1
+            c2.append(n)
+    if c == 4:
+        print(c2)
+        c2.clear()
+    else:
+        c2.clear()'''
+
+
+#
+
+
+
+
+
+
+
+
