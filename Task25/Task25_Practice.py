@@ -118,7 +118,7 @@ for i in range(245690,245757):
 #27851
 '''c = 0
 num = []
-
+for i in range(210235,210301):
 for i in range(210235,210301):
     c = 0
     for j in range(2,i//2+1):
@@ -181,62 +181,11 @@ for i in range(489421, 489440+1):
 
 
 #
-'''for n in range(2422000,2422081):
-    ok = True
-    for d in range(2, n//2 + 1):
-        if n % d == 0:
-            ok = False
-            break
-    if ok:
-        print(n)'''
-
-#
-'''for n in range(489421,489440):
-    c = 1
-    res = []
-    for d in range(1, n //2 + 1):
-        if n % d == 0:
-            c+=1
-            res.append(d)
-
-    if c == 4:
-        res.append(n)
-        print(res)
-        res.clear()
-
-    else:
-        res.clear()'''
-
-#
-
-'''for m in range(0,100):
-    for n in range(0,100):
-        if m % 2 == 0 and n % 2 == 1:
-            if 2**m * 3**n in range (200_000_000, 400_000_000):
-                print(2**m * 3**n)'''
 
 
-#
 
-def f(n):
 
-    for d in range(2, n // 2 + 1):
-        if n % d == 0:
-            minD = d
-            maxD = n //d
-            m = minD + maxD
-            return m
-    return 0
 
-c = 0
-for n in range(452022, 1000000):
-    M = f(n)
-
-    if M % 7 == 3:
-        print(n,M)
-        c+=1
-        if c == 5:
-            break
 
 
 
