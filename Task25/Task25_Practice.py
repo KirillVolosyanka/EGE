@@ -180,11 +180,104 @@ for i in range(489421, 489440+1):
         c2.clear()'''
 
 
+#72610
+'''def func(n):
+    num = set()
+    for d in range(2, int(n**(0.5)) + 1):
+
+        if n % d == 0:
+            num.add(d)
+            num.add(n // d)
+
+    return sorted(num)'''
+
+
+'''for n in range(112_500_000, 112_550_001):
+    y = func(n)
+
+    if len(y) > 1:
+        m = y[-1] + y[-2]
+        if m % 10_000 == 1214:
+            print(n)'''
+
+#29673
+
+'''def fonk(n):
+    num = set()
+    for d in range (2, int(n **0.5) + 1):
+        if n % d == 0:
+            num.add(d)
+            num.add(n // d)
+
+    return sorted(num)'''
+
+'''for i in range(10**7, 10**8):
+    y = sorted(fonk(i))
+    if len(y) > 1:
+        m = y[-1] + y[-2]
+        if ( 0 < m < 10_000):
+            print(m)'''
+
+#69933
+
+'''def shrex(n):
+    num = set()
+    for d in range (2, int(n **0.5) + 1):
+        if n % d == 0:
+            num.add(d)
+            num.add(n // d)
+
+    return sorted(num)
+
+for i in range(700_000, 1_500_000):
+    y = sorted(shrex(i))
+
+    if len(y) > 1:
+        m = y[0] + y[-1]
+        if m % 10 == 4:
+            print(i,m)'''
+
 #
+'''for m in range(1,50):
+    for n in range(1,50):
+        if m % 2 == 0 and n % 2 == 1:
+            N = 2 ** m * 3 ** n
+            if N in range(400_000_000, 600_000_000):
+                print(N)'''
+
+#
+def fonkulya(n):
+    num = set()
+    for d in range(2,int(n**0.5) + 1):
+        if n % d == 0:
+            num.add(d)
+            num.add(n // d)
+    return sorted(num)
+
+'''for i in range(2* 10**8 + 1, 10**9):
+    y = fonkulya(i)
+
+    if len(y)>4:
+        m = y[0] * y[1] * y[2] * y[3] * y[4]
+
+        if (0 < m < i):
+            print(m)'''
+
+def f(n):
+    num = set()
+    for d in range(2, int(n**0.5) + 1):
+        if n % d == 0:
+            num.add(d)
+            num.add(n // d)
+
+    return sorted(num)
 
 
+for i in range(300_000_000 + 1, 10**9+1):
+    y = f(i)
 
-
-
+    if len(y) > 4:
+        m = y[-5]
+        print(m)
 
 
