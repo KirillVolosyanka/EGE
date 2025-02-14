@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
-      <change beforePath="$PROJECT_DIR$/Task25/Task25_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task25/Task25_Practice.py" afterDir="false" />
+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task25_Delit3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/KirillVolosyanka/EGE.git&quot;,
-    &quot;accountId&quot;: &quot;c4b020cb-d7a5-405c-84a5-6007ff2bb6bd&quot;
+    &quot;accountId&quot;: &quot;8e4dcb05-7c89-4c98-818b-d305e8e4e5ce&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -77,7 +77,7 @@
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Practice_Theory (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="General" />
       <option name="ENV_FILES" value="" />
@@ -223,7 +223,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -435,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738765010080</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Task25_Delit3">
+      <option name="closed" value="true" />
+      <created>1738936344446</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738936344446</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -466,7 +474,8 @@
     <MESSAGE value="HW Task15 Nums" />
     <MESSAGE value="-" />
     <MESSAGE value="HW8" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW8" />
+    <MESSAGE value="Task25_Delit3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task25_Delit3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
