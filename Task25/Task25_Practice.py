@@ -263,7 +263,7 @@ def fonkulya(n):
         if (0 < m < i):
             print(m)'''
 
-def f(n):
+'''def f(n):
     num = set()
     for d in range(2, int(n**0.5) + 1):
         if n % d == 0:
@@ -278,6 +278,42 @@ for i in range(300_000_000 + 1, 10**9+1):
 
     if len(y) > 4:
         m = y[-5]
-        print(m)
+        print(m)'''
+
+'''def f(n):
+    num = set()
+    for d in range(2,int(n//2) + 1):
+        if n % d == 0:
+            num.add(d)
+            num.add(n//d)
+
+    return sorted(num)
+
+for i in range(2*10**8 + 1, 5*10**8):
+    y = f(i)
+
+    if len(y) > 4:
+        m = y[0] * y[1] * y[2] * y[3] * y[4]
+
+        if 0 < m < i:
+            print(m)'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
