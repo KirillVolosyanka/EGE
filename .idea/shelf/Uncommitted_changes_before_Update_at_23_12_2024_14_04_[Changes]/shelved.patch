@@ -1,0 +1,455 @@
+Index: Task23/Task23_Practice.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># 3607\r\n'''\r\ndef F(n):\r\n    if n > 50:\r\n        return 0\r\n    elif n == 50:\r\n        return 1\r\n    else:\r\n        return F(n+2) + F(n*5)\r\nprint(F(2))\r\n'''\r\n\r\n# 11358\r\n'''\r\ndef F(x, y):\r\n    if x > y:\r\n        return 0\r\n    elif x == y:\r\n        return 1\r\n    else:\r\n        return F(x + 1, y) + F(x + 2, y) + F(x * 2, y)\r\nprint(F(3, 10) * F(10, 12))\r\n'''\r\n\r\n# 13418\r\n'''\r\ndef F(x, y):\r\n    if x > y or x == 26:\r\n        return 0\r\n    elif x == y:\r\n        return 1\r\n    else:\r\n        return F(x + 1, y) + F(2*x + 1, y)\r\n\r\nprint(F(1, 27))\r\n'''\r\n#15144\r\n\r\n'''def f(x,y):\r\n    if x > y or x == 14:\r\n        return 0\r\n    elif x == y:\r\n        return 1\r\n    else:\r\n        return f(x+2,y) + f(x+1,y)\r\n\r\nprint(f(2,9) * f(9,18))'''\r\n\r\n#15638\r\n\r\n'''def f(x,y):\r\n    if x > y or x == 17:\r\n        return 0\r\n    elif x == y:\r\n        return 1\r\n    else:\r\n        return f(x+1,y) + f(x*2,y)\r\n\r\nprint(f(1,10) *f(10,21))'''\r\n\r\n\r\n#15807\r\n\r\n'''def f(x,y):\r\n    if x > y or x == 33:\r\n        return 0\r\n    elif x == y:\r\n        return 1\r\n    else:\r\n        return f(x+1,y) + f(x*2,y)\r\n\r\nprint(f(3,16) * f(16,37))'''\r\n\r\n#15834\r\n\r\n'''def f(x,y):\r\n    if x > y or x == 31:\r\n        return 0\r\n    elif x == y:\r\n        return 1\r\n    else:\r\n        return f(x+1,y) + f(x*2,y)\r\n\r\nprint(f(2,15) * f(15,35))'''\r\n\r\n'''def f(x,y):\r\n    if x > y or x==16:\r\n        return 0\r\n    elif x == y:\r\n        return 1\r\n    else:\r\n        return f(x+1,y) + f(x*2,y)\r\n\r\nprint(f(1,10) * f(10,21))'''\r\n\r\n#72581\r\n'''\r\ndef f(x,y):\r\n    if x < y:\r\n        return 0\r\n    elif x == y:\r\n        return 1\r\n    else:\r\n        return f(x-2,y) + f(x//2,y) + f(x//3,y)\r\n\r\nprint(f(40,20)*f(20,4))\r\n'''\r\n\r\n# 46981\r\n'''\r\ndef f(x, y, Flag):\r\n    if x > y:\r\n        return 0\r\n    if x == y:\r\n        return 1\r\n    elif Flag:\r\n        return f(x + 1, y, True) + f(x + 2, y, True) + f(x * 2, y, False)\r\n    else:\r\n        return f(x + 1, y, True) + f(x + 2, y, True)\r\n\r\nprint(f(1, 11, True))\r\n'''\r\n'''\r\ndef f(start, end, k, c):\r\n    if start > end:\r\n        return 0\r\n    if start == end:\r\n        return 1\r\n    if start < end:\r\n        if k == c == True:\r\n            return f(start*2, end, False, k)\r\n        elif k == c == False:\r\n            return f(start + 1, end, True, k)\r\n        else:\r\n            return f(start + 1, end, True, k)  + f(start * 2, end, False,k)\r\nprint(f(1, 16, '0', '0'))\r\n'''\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task23/Task23_Practice.py b/Task23/Task23_Practice.py
+--- a/Task23/Task23_Practice.py	(revision e882adf328e8341f17ae12d1ce8f75523edd7a14)
++++ b/Task23/Task23_Practice.py	(date 1734951812080)
+@@ -107,7 +107,6 @@
+ '''
+ 
+ # 46981
+-'''
+ def f(x, y, Flag):
+     if x > y:
+         return 0
+@@ -119,19 +118,3 @@
+         return f(x + 1, y, True) + f(x + 2, y, True)
+ 
+ print(f(1, 11, True))
+-'''
+-'''
+-def f(start, end, k, c):
+-    if start > end:
+-        return 0
+-    if start == end:
+-        return 1
+-    if start < end:
+-        if k == c == True:
+-            return f(start*2, end, False, k)
+-        elif k == c == False:
+-            return f(start + 1, end, True, k)
+-        else:
+-            return f(start + 1, end, True, k)  + f(start * 2, end, False,k)
+-print(f(1, 16, '0', '0'))
+-'''
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36_[Changes]/shelved.patch	(revision e882adf328e8341f17ae12d1ce8f75523edd7a14)
++++ /dev/null	(revision e882adf328e8341f17ae12d1ce8f75523edd7a14)
+@@ -1,143 +0,0 @@
+-Index: Task16/Task16_Practice.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+># 45250\r\n'''\r\ndef F(n):\r\n    if n < 3:\r\n        return 2\r\n    elif n % 2 == 0:\r\n        return F(n - 2) + F(n - 1) - n\r\n    else:\r\n        return F(n - 1) - F(n - 2) + 2 * n\r\n\r\nprint(F(32))\r\n'''\r\n\r\n# 47220\r\n\r\nslovar = {1 : 1}\r\nfor i in range(2, 2024):\r\n    slovar[i] = i * slovar[i - 1]\r\nprint(slovar[2023] / slovar[2020])\r\n\r\n# Example\r\n'''\r\nslovar = {1: 12}\r\nslovar[\"Vasya\"] = \"Shpala\"\r\nslovar.pop(\"Vasya\")\r\nslovar[\"Vasya\"] = \"Tuneyadec\"\r\nslovar[\"Vasya\"] = \"Chmo\"\r\nprint(slovar.keys())\r\n'''\r\n\r\n#36871\r\n'''def f(n):\r\n    if n == 0:\r\n        return 0\r\n    elif n > 0 and n % 2 == 0:\r\n        return f(n/2)\r\n    else:\r\n        return 1+f(n-1)\r\n\r\ncount = 0\r\n\r\nfor i in range(1,1001):\r\n    if f(i) == 3:\r\n        count+=1\r\nprint(count)\r\n'''\r\n\r\n#38591\r\n\r\n'''def f(n):\r\n    if n ==1:\r\n        return 1\r\n    elif n % 2 == 0:\r\n        return n + f(n-1)\r\n    elif n >1 and n%2==1:\r\n        return 2*f(n-2)\r\n\r\nprint(f(26))'''\r\n\r\n#\r\n\r\n\r\n\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Task16/Task16_Practice.py b/Task16/Task16_Practice.py
+---- a/Task16/Task16_Practice.py	(revision bb03b63c0d108d55a5bb2e27867b06ddd9516499)
+-+++ b/Task16/Task16_Practice.py	(date 1733487349468)
+-@@ -58,6 +58,80 @@
+- print(f(26))'''
+- 
+- #
+-+def f(n):
+-+    if n >= 2025:
+-+        return n
+-+    elif n <2025:
+-+        return n + f(n+2)
+-+
+-+print(f(2022) - f(2023))
+-+
+-+#58226
+-+
+-+def f(n):
+-+    if n ==1:
+-+        return 1
+-+    elif n ==2:
+-+        return 2
+-+    elif n >2 and n%2==0:
+-+        return (3*n + f(n-3))//3
+-+    elif n >2 and n%2==1:
+-+        return (7*n + f(n-1) - f(n-2))//5
+- 
+-+print(f(35))
+- 
+-+#4647
+-+def f(n):
+-+    if n == 1:
+-+        return 1
+-+    elif n ==2:
+-+        return 2
+-+    elif n >2:
+-+        return 2*f(n-1) + (n-2) * f(n-2)
+-+
+-+print(f(6))
+-+
+-+#70543
+-+import sys
+-+sys.setrecursionlimit(10**6)
+-+def f(n):
+-+    if n ==1:
+-+        return 1
+-+    if n >1:
+-+        return (n-1) * f(n-1)
+-+
+-+print((f(2024) + 2*f(2023))/f(2022))
+-+
+-+#40732
+-+def f(n):
+-+    if n ==0:
+-+        return 0
+-+    elif n >0 and n % 3 == 2:
+-+        return f(n-1) + 1
+-+    elif n > 0 and (n % 3) < 2:
+-+        return f ((n - n % 3) / 3)
+-+
+-+for n in range(1,1000):
+-+    if f(n) ==6:
+-+        print(n)
+-+        break
+-+
+-+#7308
+-+
+-+def f(n):
+-+    if n ==1:
+-+        return 1
+-+    elif n >1:
+-+        return f(n-1) + 2**n-1
+-+
+-+print(f(10))
+-+
+-+#72574
+-+
+-+def f(n):
+-+    if n<3:
+-+        return n
+-+    elif n >=3:
+-+        return (n-1) * f(n-2)
+- 
+-+print((f(2024) - f(2023))/f(2021))
+-\ No newline at end of file
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e170b45a-09d3-46e3-8e44-5c1a277f2fa8\" name=\"Changes\" comment=\"Task 14(1)\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Task14/Task14_Practice.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Task14/Task14_Practice.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Task16/Task16_Practice.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Task16/Task16_Practice.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;KirillVolosyanka&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/KirillVolosyanka/EGE.git&quot;,\r\n    &quot;accountId&quot;: &quot;c4b020cb-d7a5-405c-84a5-6007ff2bb6bd&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2n9pwzHyv0FcZg0CuxoW4AjNyJn\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Python.Practice_Theory (1).executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.TASK15_DIVISION_HW_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task14_Practice.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task15_Bitwise_HW_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task15_Numbers_HW_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task15_Practice.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task16_Practice.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Кирилл\\PycharmProjects\\General\\Task15\\ Coordinate_Plane\" />\r\n      <recent name=\"C:\\Users\\Кирилл\\PycharmProjects\\General\\Task2\\PracticeMain\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.main\">\r\n    <configuration name=\"Practice_Theory (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Task5/Decimal\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Practice_Theory\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Task15/Number_Lines\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Task15_Numbers_HW_1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/HW\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/HW/Task15_Numbers_HW_1.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Task5_Binary_Decimal_HW_1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/HW\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"task2_1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Task2\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Кирилл\\PycharmProjects\\General\\Task2\\PracticeMain\\task2_1.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.Practice_Theory (1)\" />\r\n        <item itemvalue=\"Python.Task5_Binary_Decimal_HW_1\" />\r\n        <item itemvalue=\"Python.Task15_Numbers_HW_1\" />\r\n        <item itemvalue=\"Python.Practice_Theory\" />\r\n        <item itemvalue=\"Python.task2_1\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e170b45a-09d3-46e3-8e44-5c1a277f2fa8\" name=\"Changes\" comment=\"\" />\r\n      <created>1728395388481</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1728395388481</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Start\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728395444687</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728395444687</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"First_commit\">\r\n      <created>1728399282823</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728399282823</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Task2_HW_1_Table\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728407115922</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728407115922</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Task2_HW_1_Table(Correct)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728408463037</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728408463037</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"HW Coordinate\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731168382003</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731168382003</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"HW Coordinate\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731169480893</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731169480893</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"HW Bitwise\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731169501157</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731169501157</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"HW вшмшышщт\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731206774651</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731206774653</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"HW division\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731235200520</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731235200520</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"HW numbers\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731497689140</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731497689140</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"HW number &amp; n5\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731507054277</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731507054277</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"HW number &amp; n5\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731944267415</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731944267415</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"back up\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731944403708</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731944403708</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"back up\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731944670817</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731944670817</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Task 14(1)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732549336225</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732549336225</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"16\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Start\" />\r\n    <MESSAGE value=\"First_commit\" />\r\n    <MESSAGE value=\"Task2_HW_1_Table\" />\r\n    <MESSAGE value=\"Task2_HW_1_Table(Correct)\" />\r\n    <MESSAGE value=\"HW Coordinate\" />\r\n    <MESSAGE value=\"HW Bitwise\" />\r\n    <MESSAGE value=\"HW вшмшышщт\" />\r\n    <MESSAGE value=\"HW division\" />\r\n    <MESSAGE value=\"HW numbers\" />\r\n    <MESSAGE value=\"Back up\" />\r\n    <MESSAGE value=\"HW number &amp; n5\" />\r\n    <MESSAGE value=\"back up\" />\r\n    <MESSAGE value=\"Task 14(1)\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Task 14(1)\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision bb03b63c0d108d55a5bb2e27867b06ddd9516499)
+-+++ b/.idea/workspace.xml	(date 1733758583098)
+-@@ -4,10 +4,8 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task 14(1)">
+--      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-+    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="back up">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/Task14/Task14_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task14/Task14_Practice.py" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/Task16/Task16_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task16/Task16_Practice.py" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-@@ -353,7 +351,15 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1732549336225</updated>
+-     </task>
+--    <option name="localTasksCounter" value="16" />
+-+    <task id="LOCAL-00016" summary="back up">
+-+      <option name="closed" value="true" />
+-+      <created>1733484636204</created>
+-+      <option name="number" value="00016" />
+-+      <option name="presentableId" value="LOCAL-00016" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1733484636206</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="17" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -379,9 +385,9 @@
+-     <MESSAGE value="HW numbers" />
+-     <MESSAGE value="Back up" />
+-     <MESSAGE value="HW number &amp; n5" />
+--    <MESSAGE value="back up" />
+-     <MESSAGE value="Task 14(1)" />
+--    <option name="LAST_COMMIT_MESSAGE" value="Task 14(1)" />
+-+    <MESSAGE value="back up" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="back up" />
+-   </component>
+-   <component name="XDebuggerManager">
+-     <breakpoint-manager>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36__Changes_.xml	(revision e882adf328e8341f17ae12d1ce8f75523edd7a14)
++++ /dev/null	(revision e882adf328e8341f17ae12d1ce8f75523edd7a14)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_09_12_2024_18_36_[Changes]" date="1733758659744" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_18_36_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 09.12.2024 18:36 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e170b45a-09d3-46e3-8e44-5c1a277f2fa8\" name=\"Changes\" comment=\"Task 23 Practice(1)\">\r\n      <change afterPath=\"$PROJECT_DIR$/Task8/Task8_Practice.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2024_14_06_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2024_14_06__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Task23/Task23_Practice.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Task23/Task23_Practice.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;KirillVolosyanka&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/KirillVolosyanka/EGE.git&quot;,\r\n    &quot;accountId&quot;: &quot;8e4dcb05-7c89-4c98-818b-d305e8e4e5ce&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2n9pwzHyv0FcZg0CuxoW4AjNyJn\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.Practice_Theory (1).executor\": \"Run\",\r\n    \"Python.Practice_Theory.executor\": \"Run\",\r\n    \"Python.TASK15_DIVISION_HW_1.executor\": \"Run\",\r\n    \"Python.Task14_Practice.executor\": \"Run\",\r\n    \"Python.Task15_Bitwise_HW_1.executor\": \"Run\",\r\n    \"Python.Task15_Coordinate_HW_1.executor\": \"Run\",\r\n    \"Python.Task15_Numbers_HW_1.executor\": \"Run\",\r\n    \"Python.Task15_Practice.executor\": \"Run\",\r\n    \"Python.Task16_Practice.executor\": \"Run\",\r\n    \"Python.Task23_Practice.executor\": \"Run\",\r\n    \"Python.Task2_HW_1.executor\": \"Run\",\r\n    \"Python.Task5_Binary_Decimal_HW_1.executor\": \"Run\",\r\n    \"Python.Task8_Practice.executor\": \"Run\",\r\n    \"Python.main.executor\": \"Run\",\r\n    \"Python.task2_1.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Кирилл\\PycharmProjects\\General\\Task15\\ Coordinate_Plane\" />\r\n      <recent name=\"C:\\Users\\Кирилл\\PycharmProjects\\General\\Task2\\PracticeMain\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Practice_Theory (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Task5/Decimal\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Task5/Decimal/Practice_Theory.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Practice_Theory\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Task15/Number_Lines\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Task15_Numbers_HW_1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/HW\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/HW/Task15_Numbers_HW_1.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Task5_Binary_Decimal_HW_1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/HW\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/HW/Task5_Binary_Decimal_HW_1.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"task2_1\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"General\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Task2\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Кирилл\\PycharmProjects\\General\\Task2\\PracticeMain\\task2_1.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.Practice_Theory (1)\" />\r\n        <item itemvalue=\"Python.Task5_Binary_Decimal_HW_1\" />\r\n        <item itemvalue=\"Python.Task15_Numbers_HW_1\" />\r\n        <item itemvalue=\"Python.Practice_Theory\" />\r\n        <item itemvalue=\"Python.task2_1\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e170b45a-09d3-46e3-8e44-5c1a277f2fa8\" name=\"Changes\" comment=\"\" />\r\n      <created>1728395388481</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1728395388481</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Start\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728395444687</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728395444687</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"First_commit\">\r\n      <created>1728399282823</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728399282823</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Task2_HW_1_Table\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728407115922</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728407115922</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Task2_HW_1_Table(Correct)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728408463037</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728408463037</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"HW Coordinate\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731168382003</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731168382003</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"HW Coordinate\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731169480893</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731169480893</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"HW Bitwise\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731169501157</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731169501157</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"HW вшмшышщт\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731206774651</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731206774653</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"HW division\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731235200520</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731235200520</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"HW numbers\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731497689140</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731497689140</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"HW number &amp; n5\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731507054277</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731507054277</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"HW number &amp; n5\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731944267415</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731944267415</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"back up\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731944403708</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731944403708</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"back up\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731944670817</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731944670817</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Task 14(1)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732549336225</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732549336225</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Task 16 Practice(1)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733484732641</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733484732641</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Task 23 Practice(1)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733760939639</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733760939639</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"18\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Start\" />\r\n    <MESSAGE value=\"First_commit\" />\r\n    <MESSAGE value=\"Task2_HW_1_Table\" />\r\n    <MESSAGE value=\"Task2_HW_1_Table(Correct)\" />\r\n    <MESSAGE value=\"HW Coordinate\" />\r\n    <MESSAGE value=\"HW Bitwise\" />\r\n    <MESSAGE value=\"HW вшмшышщт\" />\r\n    <MESSAGE value=\"HW division\" />\r\n    <MESSAGE value=\"HW numbers\" />\r\n    <MESSAGE value=\"Back up\" />\r\n    <MESSAGE value=\"HW number &amp; n5\" />\r\n    <MESSAGE value=\"back up\" />\r\n    <MESSAGE value=\"Task 14(1)\" />\r\n    <MESSAGE value=\"Task 16 Practice(1)\" />\r\n    <MESSAGE value=\"Task 23 Practice(1)\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Task 23 Practice(1)\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e882adf328e8341f17ae12d1ce8f75523edd7a14)
++++ b/.idea/workspace.xml	(date 1734951821400)
+@@ -4,10 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task 23 Practice(1)">
+-      <change afterPath="$PROJECT_DIR$/Task8/Task8_Practice.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2024_14_06_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2024_14_06__Changes_.xml" beforeDir="false" />
++    <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task 16 Practice(1)">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Task23/Task23_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task23/Task23_Practice.py" afterDir="false" />
+     </list>
+@@ -50,35 +47,34 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Python.Practice_Theory (1).executor": "Run",
+-    "Python.Practice_Theory.executor": "Run",
+-    "Python.TASK15_DIVISION_HW_1.executor": "Run",
+-    "Python.Task14_Practice.executor": "Run",
+-    "Python.Task15_Bitwise_HW_1.executor": "Run",
+-    "Python.Task15_Coordinate_HW_1.executor": "Run",
+-    "Python.Task15_Numbers_HW_1.executor": "Run",
+-    "Python.Task15_Practice.executor": "Run",
+-    "Python.Task16_Practice.executor": "Run",
+-    "Python.Task23_Practice.executor": "Run",
+-    "Python.Task2_HW_1.executor": "Run",
+-    "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
+-    "Python.Task8_Practice.executor": "Run",
+-    "Python.main.executor": "Run",
+-    "Python.task2_1.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "master"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Python.Practice_Theory (1).executor&quot;: &quot;Run&quot;,
++    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
++    &quot;Python.TASK15_DIVISION_HW_1.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task14_Practice.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task15_Bitwise_HW_1.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task15_Numbers_HW_1.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task15_Practice.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task16_Practice.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task23_Practice.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,
++    &quot;Python.main.executor&quot;: &quot;Run&quot;,
++    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task15\ Coordinate_Plane" />
+       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Python.main">
+     <configuration name="Practice_Theory (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="General" />
+       <option name="ENV_FILES" value="" />
+@@ -364,15 +360,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1733484732641</updated>
+     </task>
+-    <task id="LOCAL-00017" summary="Task 23 Practice(1)">
+-      <option name="closed" value="true" />
+-      <created>1733760939639</created>
+-      <option name="number" value="00017" />
+-      <option name="presentableId" value="LOCAL-00017" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1733760939639</updated>
+-    </task>
+-    <option name="localTasksCounter" value="18" />
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -401,8 +389,7 @@
+     <MESSAGE value="back up" />
+     <MESSAGE value="Task 14(1)" />
+     <MESSAGE value="Task 16 Practice(1)" />
+-    <MESSAGE value="Task 23 Practice(1)" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Task 23 Practice(1)" />
++    <option name="LAST_COMMIT_MESSAGE" value="Task 16 Practice(1)" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: HW/Task15_Numbers_HW_1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Number 1\r\n'''\r\n    Code is here\r\n'''\r\n# Answer: _ _ _ _\r\n\r\n'''_________________________________________________________________________'''\r\n\r\n# Number 2\r\n'''\r\n    Code is here\r\n'''\r\n# Answer: _ _ _ _\r\n\r\n'''_________________________________________________________________________'''\r\n\r\n# Number 3\r\n'''\r\n    Code is here\r\n'''\r\n# Answer: _ _ _ _\r\n\r\n'''_________________________________________________________________________'''\r\n\r\n# Number 4\r\n'''\r\n    Code is here\r\n'''\r\n# Answer: _ _ _ _\r\n\r\n'''_________________________________________________________________________'''\r\n\r\n# Number 5\r\n'''\r\n    Code is here\r\n'''\r\n# Answer: _ _ _ _
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HW/Task15_Numbers_HW_1.py b/HW/Task15_Numbers_HW_1.py
+--- a/HW/Task15_Numbers_HW_1.py	(revision e882adf328e8341f17ae12d1ce8f75523edd7a14)
++++ b/HW/Task15_Numbers_HW_1.py	(date 1734951669385)
+@@ -1,37 +1,96 @@
+ # Number 1
+-'''
+-    Code is here
+-'''
+-# Answer: _ _ _ _
++'''res = []
++P = [ i for i in range(24,77)]
++Q = [ i for i in range(47,92)]
++R = [ i for i in range(82,116)]
++
++for A_down in range(24,117):
++    for A_up in range(A_down +1, 117):
++        ok = True
++        A = [i for i in range (A_down, A_up)]
++        for X in range(-500,500):
++            if (not(not(not(X in Q) or ((X in  P) or (X in R)))) or ((X in A) or not(X in Q))) == False:
++                ok = False
++        if ok:
++            res.append(A_up - A_down)
++print(min(res))'''
++
++# Answer: 5
+ 
+ '''_________________________________________________________________________'''
+ 
+ # Number 2
+-'''
+-    Code is here
+-'''
+-# Answer: _ _ _ _
++'''res = []
++P = [i for i in range(20,50)]
++Q =[ i for i in range(30,65)]
+ 
+-'''_________________________________________________________________________'''
++for A_down in range(20,66):
++    for A_up in range(A_down + 1,66):
++        ok = True
++        A = [i for i in range(A_down, A_up)]
++        for X in range(-1000,1000):
++            if ((X in A) or (not(X in P) or not(X in Q))) == False:
++                ok = False
++        if ok:
++            res.append(A_up - A_down)
++print(min(res))'''
++# Answer: 20
++
+ 
+ # Number 3
+-'''
+-    Code is here
+-'''
+-# Answer: _ _ _ _
++'''res = []
++P= [i for i in range(5, 30)]
++Q = [i for i in range(14, 23)]
++
++for A_down in range(5,31):
++    for A_up in range(A_down +1,31):
++        ok = True
++        A = [i for i in range(A_down,A_up)]
++        for X in range(-500,500):
++            if (not((X in P) == (X in Q)) or not(X in A)) == False:
++                ok = False
++        if ok:
++            res.append(A_up - A_down)
++print(max(res))'''
+ 
+-'''_________________________________________________________________________'''
++# Answer: 9
++
++
+ 
+ # Number 4
+-'''
+-    Code is here
+-'''
+-# Answer: _ _ _ _
++'''res = []
++P = [i for i in range(23, 58)]
++Q = [i for i in range(1, 39)]
++
++for A_down in range(1,59):
++    for A_up in range(A_down + 1,59):
++        ok = True
++        A = [i for i in range(A_down, A_up)]
++        for X in range(-500,500):
++            if (not((X in P) or (X in A)) or ((X in Q) or (X in A))) == False:
++                ok = False
++        if ok:
++            res.append(A_up - A_down)
++
++print(min(res))'''
++# Answer: 19
+ 
+ '''_________________________________________________________________________'''
+ 
+ # Number 5
+-'''
+-    Code is here
+-'''
+-# Answer: _ _ _ _
+\ No newline at end of file
++res = []
++P = [i for i in range(10, 40)]
++Q = [i for i in range(5, 15)]
++R = [i for i in range(35, 50)]
++
++for A_down in range(5,51):
++    for A_up in range(A_down + 1,51):
++        ok = True
++        A = [i for i in range(A_down, A_up)]
++        for X in range(-500,500):
++            if (((X in A) or (X in P)) or (not(X in Q) or (X in R))) == False:
++                ok = False
++        if ok:
++            res.append(A_up - A_down)
++print(min(res))
++# Answer: 5
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Black\">\r\n    <option name=\"sdkName\" value=\"Python 3.12 (General)\" />\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.12 (General)\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision e882adf328e8341f17ae12d1ce8f75523edd7a14)
++++ b/.idea/misc.xml	(date 1734951669368)
+@@ -3,5 +3,5 @@
+   <component name="Black">
+     <option name="sdkName" value="Python 3.12 (General)" />
+   </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (General)" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file

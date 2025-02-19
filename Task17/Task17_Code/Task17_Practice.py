@@ -1,3 +1,4 @@
+
 f = open('37336.txt')
 lines = [int(i) for i in f]
 result = []
