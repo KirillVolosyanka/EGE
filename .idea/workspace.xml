@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
+      <change afterPath="$PROJECT_DIR$/Task26/26 (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task26/Task26_Practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task26/inf_22_10_20_26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2025_17_15_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2025_17_15__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2025_17_27_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2025_17_27__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +70,7 @@
     &quot;Python.Task19-21_Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task23_Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task25_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task26_Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task8_Practice.executor&quot;: &quot;Run&quot;,
@@ -80,11 +88,11 @@
       <recent name="$PROJECT_DIR$/Task17/Task17_Code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Task26" />
       <recent name="$PROJECT_DIR$/CheetSheets" />
       <recent name="$PROJECT_DIR$/Task17/Task17_Code" />
       <recent name="C:\Users\Василий Макаров\EGEE\Task17\Task17_Code" />
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task15\ Coordinate_Plane" />
-      <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -453,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740415892464</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1740467764956</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1740467764956</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
