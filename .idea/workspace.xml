@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="Task17">
-      <change afterPath="$PROJECT_DIR$/Task6/Task6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2025_17_15_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task17/Task17_Code/Task17_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task17/Task17_Code/Task17_Practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/KirillVolosyanka/EGE.git&quot;,
-    &quot;accountId&quot;: &quot;8e4dcb05-7c89-4c98-818b-d305e8e4e5ce&quot;
+    &quot;accountId&quot;: &quot;c4b020cb-d7a5-405c-84a5-6007ff2bb6bd&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -48,39 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Practice_Theory (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TASK15_DIVISION_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task14_HW8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task14_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task15_Bitwise_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task15_Numbers_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task15_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task16_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task17_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task19-21_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task23_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task25_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task8_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Practice_Theory (1).executor": "Run",
+    "Python.Practice_Theory.executor": "Run",
+    "Python.TASK15_DIVISION_HW_1.executor": "Run",
+    "Python.Task14_HW8.executor": "Run",
+    "Python.Task14_Practice.executor": "Run",
+    "Python.Task15_Bitwise_HW_1.executor": "Run",
+    "Python.Task15_Coordinate_HW_1.executor": "Run",
+    "Python.Task15_Numbers_HW_1.executor": "Run",
+    "Python.Task15_Practice.executor": "Run",
+    "Python.Task16_Practice.executor": "Run",
+    "Python.Task17_Practice.executor": "Run",
+    "Python.Task19-21_Practice.executor": "Run",
+    "Python.Task23_Practice.executor": "Run",
+    "Python.Task25_Practice.executor": "Run",
+    "Python.Task2_HW_1.executor": "Run",
+    "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
+    "Python.Task8_Practice.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.task2_1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task15\ Coordinate_Plane" />
       <recent name="C:\Users\Кирилл\PycharmProjects\General\Task2\PracticeMain" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="Practice_Theory (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="General" />
       <option name="ENV_FILES" value="" />
@@ -226,7 +224,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -446,15 +444,7 @@
       <option name="project" value="LOCAL" />
       <updated>1739974575249</updated>
     </task>
-    <task id="LOCAL-00027" summary="Task17">
-      <option name="closed" value="true" />
-      <created>1739975234059</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1739975234059</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
