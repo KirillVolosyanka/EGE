@@ -168,9 +168,71 @@ print(x, y)
 print('RESULT -', (y*39 + x))
 print(t1-t)'''
 
-def conv(n, sys):
+'''def conv(n, sys):
     res = ''
     while n:
         res = str(n % sys) + res
         n //= sys
+    return res'''
+
+#48378
+
+'''for x in range(0,19):
+    d1 = 3*19**4 + 2*19**3 + 1*19**2 + x*19**1 + 4*19**0
+    d2 = 4*19**4 + 9*19**3 + 8*19**2 + x*19**1 + 9*19**0
+    sumR = d1 + d2
+
+    if sumR % 23 == 0:
+        print(sumR//23)'''
+
+'''def base(n,s):
+    num = ''
+    while n :
+        num = str(n%s) + num
+        n //= s
+    return num
+
+val = 49**7 + 7**20 - 28
+val7 = base(val,7)
+res = val7.count("6")
+print(res)'''
+
+
+#48397
+# A 10
+# B 11
+# C 12
+# D 13
+# E 14
+# F 15
+'''for x in range(0,13):
+    d1 = 8*13**3 + x*13**2 + 7*13**1 + 1*13**0
+    d2 = 3*17**3 + x*17**2 + 13*17**1 + 15*17**0
+
+    sumR = d1 + d2
+
+    if sumR % 197 == 0:
+        print(sumR // 197)'''
+
+#48387
+
+'''for x in range(0, 11):
+    for y in range(0, 11):
+        d1 = x*11**4 + 3*11**3 + 4*11**2 + 1*11**1 + y*11**0
+        d2 = 5*19**4 + 6*19**3 + x*19**2 + 1*19**1 + y*19**0
+        sumR = d1 + d2
+        if sumR % 305 == 0:
+            print(sumR//305)'''
+
+#16445
+def change(n,sys):
+    res = ''
+    while n:
+        res = str(n%sys) + res
+        n //= sys
     return res
+
+val = 49**6 + 7**18 - 21
+val7 = change(val,7)
+num = val7.count("6")
+print(num)
