@@ -21,6 +21,7 @@ for i in range(len(s)):
         c = 1
 print(mx)'''
 
+
 #24.2
 
 '''a = open("24 (1).txt").read()
@@ -56,6 +57,97 @@ for line in a:
 print(c)'''
 
 #19149
-a = open("24_19149.txt").readline().split('(')
+'''a = open("24_19149.txt").readline().split('(')'''
+
+#58532
+
+'''f = open("24 (3).txt").readline()
+keyCoo = [-3]
+maxLen = 0
+pat = "XYZ_XZY_ZXY_YZX_YXZ_ZYX"
+
+for i in range(len(f)-2):
+    a = f[i]
+    b = f[i+1]
+    c = f[i+2]
+
+    if a+b+c in pat:
+        keyCoo.append(i)
+
+
+keyCoo.append(len(keyCoo))
+
+for j in range(len(keyCoo)-1):
+    curLen = keyCoo[j+1] - keyCoo[j] - 3
+    if curLen > maxLen:
+        maxLen = curLen
+
+print(maxLen)'''
+
+#63040
+'''f = open("24 (4).txt").readline()
+
+
+maxLen = 0
+curLen = 0
+
+for i in range(len(f)):
+    cA = 0
+    cB = 0
+
+    for j in range(i,len(f)):
+        if f[j] == "A": cA += 1
+        elif f[j] == "B": cB += 1
+
+        if cA > 2 or cB > 2: break
+        else: curLen+=1
+
+    if curLen > maxLen:
+        maxLen = curLen
+    curLen = 0
+
+print(maxLen)'''
+
+#58327
+
+f = open("24_58327.txt").readline()
+
+maxLen = 1
+curLen = 1
+
+for i in range(len(f)):
+
+    if f[i-1] >= f[i]:
+        curLen +=1
+
+    else:
+        if curLen > maxLen:
+            maxLen = curLen
+        curLen = 1
+
+print(maxLen)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

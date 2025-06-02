@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
-      <change afterPath="$PROJECT_DIR$/Task17/Task17_Code/17 (2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task17/Task17_Code/17 (3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task17/Task17_Code/17 (4).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task17/Task17_Code/17 (5).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task17/Task17_Code/17 (6).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task17/Task17_Code/17 (7).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/24 (1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/24_19149.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/Task24.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/inf_22_10_20_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task17/Task17_Code/17 (8).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task24/24 (3).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task24/24 (4).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task24/24_58327 (2).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task24/24_58327.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task14/Task14_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task14/Task14_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/Number_Lines/Practice_Theory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task17/Task17_Code/Task17_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task17/Task17_Code/Task17_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/Task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/Task6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task24/Task24.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task24/Task24.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,39 +52,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ItIsCheetSheets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Practice_Theory (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TASK15_DIVISION_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task14_HW8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task14_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task15_Bitwise_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task15_Numbers_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task15_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task16_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task17_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task19-21_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task23_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task24.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task25_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task26_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task8_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/basil/PycharmProjects/EGElast/Task17/Task17_Code&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ItIsCheetSheets.executor": "Run",
+    "Python.Practice_Theory (1).executor": "Run",
+    "Python.Practice_Theory.executor": "Run",
+    "Python.TASK15_DIVISION_HW_1.executor": "Run",
+    "Python.Task14_HW8.executor": "Run",
+    "Python.Task14_Practice.executor": "Run",
+    "Python.Task15_Bitwise_HW_1.executor": "Run",
+    "Python.Task15_Coordinate_HW_1.executor": "Run",
+    "Python.Task15_Numbers_HW_1.executor": "Run",
+    "Python.Task15_Practice.executor": "Run",
+    "Python.Task16_Practice.executor": "Run",
+    "Python.Task17_Practice.executor": "Run",
+    "Python.Task19-21_Practice.executor": "Run",
+    "Python.Task23_Practice.executor": "Run",
+    "Python.Task24.executor": "Run",
+    "Python.Task25_Practice.executor": "Run",
+    "Python.Task26_Practice.executor": "Run",
+    "Python.Task2_HW_1.executor": "Run",
+    "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
+    "Python.Task8_Practice.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.task2_1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/basil/PycharmProjects/EGElast/Task24",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Task24" />
       <recent name="$PROJECT_DIR$/Task17/Task17_Code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -477,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740467764956</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1748035406829</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1748035406829</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

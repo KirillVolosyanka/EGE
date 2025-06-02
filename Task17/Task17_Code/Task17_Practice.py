@@ -147,3 +147,8 @@ for i in range(len(data)):
         if abs(a-b) % 36 == 0 and (a % 13 == 0 or b % 13 == 0):
             res.append(abs(a-b))
 print(len(res),max(res))'''
+
+
+#59785
+
+'''a = open("17 (8).txt")'''
