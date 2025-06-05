@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
-      <change afterPath="$PROJECT_DIR$/Task17/Task17_Code/17 (8).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/24 (3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/24 (4).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/24_58327 (2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task24/24_58327.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task17/Task17_Code/Task17_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task17/Task17_Code/Task17_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task24/Task24.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task24/Task24.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +70,19 @@
     "Python.Task2_HW_1.executor": "Run",
     "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
     "Python.Task8_Practice.executor": "Run",
+    "Python.demo.executor": "Run",
     "Python.main.executor": "Run",
     "Python.task2_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/basil/PycharmProjects/EGElast/Task24",
+    "last_opened_file_path": "/Users/basil/PycharmProjects/EGElast",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Task24" />
       <recent name="$PROJECT_DIR$/Task17/Task17_Code" />
     </key>
@@ -478,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748035406829</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1748877351658</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1748877351658</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
