@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
-      <change afterPath="$PROJECT_DIR$/1_17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/n9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inf_26_04_21_27a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inf_26_04_21_27b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n27.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
     "Python.Task8_Practice.executor": "Run",
     "Python.demo.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.n27.executor": "Run",
     "Python.task2_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -87,11 +88,11 @@
       <recent name="$PROJECT_DIR$/Task17/Task17_Code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Task24" />
       <recent name="$PROJECT_DIR$/Task26" />
       <recent name="$PROJECT_DIR$/CheetSheets" />
       <recent name="$PROJECT_DIR$/Task17/Task17_Code" />
-      <recent name="C:\Users\Василий Макаров\EGEE\Task17\Task17_Code" />
     </key>
   </component>
   <component name="RunManager">
@@ -484,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748877351658</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1749124944149</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1749124944149</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
