@@ -21,3 +21,4 @@ for j in range(len(data)):
             minSumCheck = sumMX
 
 print(sumMaxMin - minSumCheck)
+print(minSumCheck)

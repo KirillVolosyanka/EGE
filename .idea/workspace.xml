@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
-      <change afterPath="$PROJECT_DIR$/inf_26_04_21_27a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inf_26_04_21_27b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/n27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n19btw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/n27.py" beforeDir="false" afterPath="$PROJECT_DIR$/n27.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,7 @@
     "Python.Task8_Practice.executor": "Run",
     "Python.demo.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.n19btw.executor": "Run",
     "Python.n27.executor": "Run",
     "Python.task2_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -493,7 +493,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749124944149</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1749241904082</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1749241904082</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
