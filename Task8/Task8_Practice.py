@@ -56,10 +56,10 @@ for n1 in alpha:
                         if word.count("В") == 1 and word.count("И") == 1 and word.count("К") == 1 and word.count("Т") == 1 and word.count("О") == 1 and word.count("Р") == 1:
                             c+=1
                             print(word, c)
-                        if c  ==170:
+                        if c  == 170:
                             print(word)'''
 
-from functools import cache
+''''from functools import cache
 @cache
 def f(n):
     n = str(n)
@@ -76,4 +76,60 @@ def f(n):
 
     return sum(f(i) for i in num)
 
-print(sum(f(i)for i in range(1,9)))
+print(sum(f(i)for i in range(1,9)))'''
+
+'''c = 0
+alpha = "НОБЕЛИЙ"
+for n1 in alpha:
+    for n2 in alpha:
+        for n3 in alpha:
+            for n4 in alpha:
+                for n5 in alpha:
+                    for n6 in alpha:
+                        for n7 in alpha:
+                            word = n1+n2+n3+n4+n5+n6+n7
+                            wordSet = set(word)
+                            if len(wordSet) == len(word) and (n1 != "Й" and "ИЙО" not in word):
+                                c+=1
+print(c)'''
+
+'''c = 0
+for n1 in range(0,9):
+    for n2 in range(0,9):
+        for n3 in range(0,9):
+            for n4 in range(0,9):
+                for n5 in range(0,9):
+                    num = str(n1)+str(n2)+str(n3)+str(n4)+str(n5)
+                    if num.count("3") <= 1 and n1 % 2 == 0 and n1 != 0 and (n5 != 1 and n5 != 8) and len(num) == 5:
+                        c+=1
+print(c)'''
+
+'''alpha = "ДГИАШЭ"
+sogl = "ДГШ"
+glas = "ИАЭ"
+
+с = 0
+for n1 in sogl:
+    for n2 in alpha:
+        for n3 in alpha:
+            for n4 in alpha:
+                for n5 in glas:
+                    с+=1
+print(с)'''
+
+'''c = 0
+alpha = "0123456789AB"
+alphaExtra = "9AB"
+for n1 in alpha:
+    for n2 in alpha:
+        for n3 in alpha:
+            for n4 in alpha:
+                for n5 in alpha:
+                    word = str(n1)+str(n2)+str(n3)+str(n4)+str(n5)
+                    cE = word.count("9") + word.count("A") + word.count("B")
+                    if word.count("7") == 1 and n1 != "0" and cE <= 3:
+                        c+=1
+                        print(word)
+print(c)'''
+
+
