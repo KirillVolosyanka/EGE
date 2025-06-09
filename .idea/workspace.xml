@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
-      <change afterPath="$PROJECT_DIR$/n19btw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n27.py" beforeDir="false" afterPath="$PROJECT_DIR$/n27.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheetSheets/Cheet_n17.py" beforeDir="false" afterPath="$PROJECT_DIR$/CheetSheets/Cheet_n17.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,40 +46,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ItIsCheetSheets.executor": "Run",
-    "Python.Practice_Theory (1).executor": "Run",
-    "Python.Practice_Theory.executor": "Run",
-    "Python.TASK15_DIVISION_HW_1.executor": "Run",
-    "Python.Task14_HW8.executor": "Run",
-    "Python.Task14_Practice.executor": "Run",
-    "Python.Task15_Bitwise_HW_1.executor": "Run",
-    "Python.Task15_Coordinate_HW_1.executor": "Run",
-    "Python.Task15_Numbers_HW_1.executor": "Run",
-    "Python.Task15_Practice.executor": "Run",
-    "Python.Task16_Practice.executor": "Run",
-    "Python.Task17_Practice.executor": "Run",
-    "Python.Task19-21_Practice.executor": "Run",
-    "Python.Task23_Practice.executor": "Run",
-    "Python.Task24.executor": "Run",
-    "Python.Task25_Practice.executor": "Run",
-    "Python.Task26_Practice.executor": "Run",
-    "Python.Task2_HW_1.executor": "Run",
-    "Python.Task5_Binary_Decimal_HW_1.executor": "Run",
-    "Python.Task8_Practice.executor": "Run",
-    "Python.demo.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.n19btw.executor": "Run",
-    "Python.n27.executor": "Run",
-    "Python.task2_1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/basil/PycharmProjects/EGElast",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Cheet_n17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ItIsCheetSheets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Practice_Theory (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Practice_Theory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TASK15_DIVISION_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task14_HW8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task14_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Bitwise_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Coordinate_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Numbers_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task15_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task16_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task17_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task19-21_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task23_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task25_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task26_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task2_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task5_Binary_Decimal_HW_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task8_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n19btw.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n27.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/basil/PycharmProjects/EGElast&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -501,7 +501,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749241904082</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1749375299730</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1749375299730</updated>
+    </task>
+    <task id="LOCAL-00033" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1749378884390</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1749378884390</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

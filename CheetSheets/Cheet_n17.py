@@ -26,5 +26,13 @@ if max(a,b,c)**2 < min(a,b,c)**2 + (a+b+c-max(a,b,c)- min(a,b,c))**2:
 
 print(f(255,16), hex(255))'''
 
+from math import *
+
+for i in range (1000,1,-1):
+    det = ceil((22*5 + log2(i))/8) + 50
+    if det * i <= 30*1024:
+        print(i)
+        break
+
 
 
