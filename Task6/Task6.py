@@ -1,3 +1,4 @@
+#6
 from turtle import *
 left(90)
 size=30

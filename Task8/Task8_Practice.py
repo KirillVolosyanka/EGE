@@ -59,7 +59,7 @@ for n1 in alpha:
                         if c  == 170:
                             print(word)'''
 
-''''from functools import cache
+'''from functools import cache
 @cache
 def f(n):
     n = str(n)
@@ -78,7 +78,8 @@ def f(n):
 
 print(sum(f(i)for i in range(1,9)))'''
 
-'''c = 0
+#8
+c = 0
 alpha = "НОБЕЛИЙ"
 for n1 in alpha:
     for n2 in alpha:
@@ -91,9 +92,9 @@ for n1 in alpha:
                             wordSet = set(word)
                             if len(wordSet) == len(word) and (n1 != "Й" and "ИЙО" not in word):
                                 c+=1
-print(c)'''
+print(c)
 
-'''c = 0
+c = 0
 for n1 in range(0,9):
     for n2 in range(0,9):
         for n3 in range(0,9):
@@ -102,9 +103,9 @@ for n1 in range(0,9):
                     num = str(n1)+str(n2)+str(n3)+str(n4)+str(n5)
                     if num.count("3") <= 1 and n1 % 2 == 0 and n1 != 0 and (n5 != 1 and n5 != 8) and len(num) == 5:
                         c+=1
-print(c)'''
+print(c)
 
-'''alpha = "ДГИАШЭ"
+alpha = "ДГИАШЭ"
 sogl = "ДГШ"
 glas = "ИАЭ"
 
@@ -130,6 +131,6 @@ for n1 in alpha:
                     if word.count("7") == 1 and n1 != "0" and cE <= 3:
                         c+=1
                         print(word)
-print(c)'''
+print(c)
 
 

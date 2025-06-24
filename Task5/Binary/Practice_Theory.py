@@ -18,8 +18,9 @@ for i in range(1, 500):
 
 #15622
 
-MinR =[]
+#5
 
+MinR =[]
 for i in range(1, 500):
     r = str(bin(i)[2:])
     if r.count("1") % 2 == 0:
@@ -27,6 +28,17 @@ for i in range(1, 500):
     else:
         r = r + "11"
     r = int(r, 2)
+
     if r > 114:
         MinR.append(r)
 print(min(MinR))
+
+for i in range(1000,2000):
+    startNum = str(i)
+    num1 = int(startNum[0] + startNum[1] + startNum[2])
+    num2 = int(startNum[1] + startNum[2] + startNum[3])
+    endNum = abs(num1 - num2)
+
+    if endNum == 415:
+        print(i)
+        break

@@ -1,4 +1,4 @@
-'''a = 3
+a = 3
 b = 4
 c = 5
 
@@ -12,19 +12,20 @@ if max(a,b,c)**2 > min(a,b,c)**2 + (a+b+c-max(a,b,c)- min(a,b,c))**2:
     print("тупоуг треугольник exists")
 
 if max(a,b,c)**2 < min(a,b,c)**2 + (a+b+c-max(a,b,c)- min(a,b,c))**2:
-    print("остроуг треугольник exists")'''
+    print("остроуг треугольник exists")
 
 
 
-'''def f(n,e):
+def f(n,e):
     s = []
     while n:
         s.append(n%e)
         #s = str(n%e) + s
         n //= e
     return s[::-1]
-
-print(f(255,16), hex(255))'''
+print(f(255,16), hex(255))
+oct()
+hex()
 
 from math import *
 
@@ -34,5 +35,9 @@ for i in range (1000,1,-1):
         print(i)
         break
 
-
+from math import *
+ceil() #в большую
+floor() #в меньшую
+round() #до ближайшего
+trunc() #отбрасываем дробь
 

@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e170b45a-09d3-46e3-8e44-5c1a277f2fa8" name="Changes" comment="HW8">
+      <change afterPath="$PROJECT_DIR$/n18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n181" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CheetSheets/Cheet_n17.py" beforeDir="false" afterPath="$PROJECT_DIR$/CheetSheets/Cheet_n17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task14/Task14_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task14/Task14_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task15/ Coordinate_Plane/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/ Coordinate_Plane/Practice_Theory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task15/Bitwise_Conjunction/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task15/Bitwise_Conjunction/Practice_Theory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task16/Task16_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task16/Task16_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task23/Task23_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task23/Task23_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task25/Task25_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task25/Task25_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/Binary/Practice_Theory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6/Task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/Task6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task8/Task8_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task8/Task8_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/n19btw.py" beforeDir="false" afterPath="$PROJECT_DIR$/n19btw.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +83,7 @@
     &quot;Python.Task8_Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.demo.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n18.executor&quot;: &quot;Run&quot;,
     &quot;Python.n19btw.executor&quot;: &quot;Run&quot;,
     &quot;Python.n27.executor&quot;: &quot;Run&quot;,
     &quot;Python.task2_1.executor&quot;: &quot;Run&quot;,
@@ -95,7 +108,7 @@
       <recent name="$PROJECT_DIR$/Task17/Task17_Code" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Practice_Theory (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="General" />
       <option name="ENV_FILES" value="" />
@@ -517,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749378884390</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1749494020098</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1749494020098</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

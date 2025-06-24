@@ -94,7 +94,7 @@ print(f(2,15) * f(15,35))'''
 print(f(1,10) * f(10,21))'''
 
 #72581
-'''
+
 def f(x,y):
     if x < y:
         return 0
@@ -104,7 +104,7 @@ def f(x,y):
         return f(x-2,y) + f(x//2,y) + f(x//3,y)
 
 print(f(40,20)*f(20,4))
-'''
+
 
 # 46981
 def f(x, y, Flag):

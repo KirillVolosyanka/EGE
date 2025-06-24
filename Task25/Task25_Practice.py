@@ -284,7 +284,7 @@ for i in range(300_000_000 + 1, 10**9+1):
         m = y[-5]
         print(m)'''
 
-'''def f(n):
+def f(n):
     num = set()
     for d in range(2,int(n//2) + 1):
         if n % d == 0:
@@ -300,7 +300,7 @@ for i in range(2*10**8 + 1, 5*10**8):
         m = y[0] * y[1] * y[2] * y[3] * y[4]
 
         if 0 < m < i:
-            print(m)'''
+            print(m)
 
 
 

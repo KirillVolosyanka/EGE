@@ -57,7 +57,19 @@ print(count)
 
 print(f(26))'''
 
-#
+#16
+from functools import lru_cache
+
+@lru_cache(None)
+def f(n):
+    if n < 3:
+        return n
+    elif n > 2:
+        return (n - 1) * f(n - 2)
+
+for i in range(2025):
+    f(i)
+print((f(2024) - f(2022)) // f(2020))
 
 
 

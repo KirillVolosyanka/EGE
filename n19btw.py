@@ -1,5 +1,5 @@
 #19.2
-'''def f(x,h):
+def f(x,h):
     if 20 <= x <= 30 and h == 3:
         return 1
     if 20 <= x <= 30 and h > 3:
@@ -16,10 +16,10 @@
 
 for x in range(1,20):
     if f(x,1):
-        print(x)'''
+        print(x)
 
 #19.1
-'''def f(x,h):
+def f(x,h):
     if h == 3 and x >= 129:
         return 1
     if h == 3 and x < 129:
@@ -34,10 +34,10 @@ for x in range(1,20):
 
 for x in range(1,129):
     if f(x,1):
-        print(x)'''
+        print(x)
 
 #20.1
-'''def f(x,h):
+def f(x,h):
     if h == 4 and x >= 129:
         return 1
     if h == 4 and x < 129:
@@ -52,10 +52,9 @@ for x in range(1,129):
 
 for x in range(1,129):
     if f(x,1):
-        print(x)'''
+        print(x)
 
 #21.1
-
 def fs(x,h):
     if h == 3 and x >= 129:
         return 1

@@ -4,7 +4,7 @@ The main rule is
 '''
 
 # 9804
-'''
+
 for a in range (1, 65):
     Ok=True
     for x in range (0, 65):
@@ -13,7 +13,7 @@ for a in range (1, 65):
     if Ok:
         print(a)
         break
-'''
+
 
 #Яндекс ЕГЭ
 # https://education.yandex.ru/ege/task/4cb47800-ed22-4851-98b4-dcee23fc0448
